@@ -14,8 +14,9 @@
     "clean": "rimraf public",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
-    "format": "prettier --write \"src/**/*.{ts,tsx,md}\"",
+    "format": "prettier --no-color --write \"src/**/*.{ts,tsx,md}\"",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "pre-commit": "npm run format && npm run type-check && npm run lint",
     "start": "npm run dev",
     "test": "npm run type-check && npm run lint",
     "type-check": "tsc"
@@ -67,6 +68,7 @@
     "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "gh-pages": "^2.0.1",
+    "husky": "^3.0.5",
     "prettier": "^1.18.2",
     "rimraf": "^2.6.3"
   }
