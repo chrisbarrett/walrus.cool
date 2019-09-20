@@ -8,6 +8,7 @@ module.exports = {
     siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
     author: {
       name: 'Chris Barrett',
+      url: 'walrus.cool',
     },
   },
   plugins: [
