@@ -15,7 +15,7 @@ interface OrgPost {
   };
 }
 
-interface Props {
+interface QueryProps {
   data: {
     allOrgContent: {
       edges: { node: OrgPost }[];
@@ -23,20 +23,18 @@ interface Props {
   };
 }
 
-const StyledPost = styled.h3`
-  margin-bottom: 0.2em;
-`;
-
-const PostItem = (post: OrgPost) => (
-  <StyledPost>
+const PostItem = styled((post: OrgPost) => (
+  <>
     <h3>
       <Link to={post.fields.slug}>{post.meta.title}</Link>
     </h3>
     <PostDate value={post.meta.date} />
-  </StyledPost>
-);
+  </>
+))`
+  margin-bottom: 4em;
+`;
 
-const Index: React.SFC<Props> = ({ data }) => {
+const Index: React.SFC<QueryProps> = ({ data }) => {
   const posts = data.allOrgContent.edges.map(({ node }) => (
     <PostItem {...node} />
   ));
