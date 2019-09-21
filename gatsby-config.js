@@ -5,7 +5,7 @@ module.exports = {
     title: 'walrus.cool',
     description: "Chris Barrett's personal site",
     keywords: 'gatsbyjs, gatsby, javascript, sample, something',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    siteUrl: 'http://www.walrus.cool',
     author: {
       name: 'Chris Barrett',
       url: 'walrus.cool',
