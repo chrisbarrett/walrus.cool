@@ -1,6 +1,7 @@
 :root {
   --border-color: #eee;
-  --foreground-dim-color: #aaa;
+  --fg-dim-color: gray;
+  --title-fg-color: gray;
 }
 
 .rtl,

@@ -37,6 +37,6 @@ export default styled(Header)`
 
   & a {
     text-decoration: none;
-    color: gray;
+    color: var(--title-fg-color);
   }
 `;

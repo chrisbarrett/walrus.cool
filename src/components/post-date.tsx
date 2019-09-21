@@ -23,6 +23,6 @@ export const PostDate: React.SFC<Props> = ({ className, value }) => {
 
 export default styled(PostDate)`
   text-align: right;
-  color: var(--foreground-dim-color);
+  color: var(--fg-dim-color);
   font-style: oblique;
 `;
