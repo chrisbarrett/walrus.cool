@@ -19,7 +19,7 @@
     "pre-commit": "npm run type-check && lint-staged",
     "start": "npm run dev",
     "test": "npm run type-check && npm run lint",
-    "type-check": "tsc"
+    "type-check": "tsc --noEmit"
   },
   "engines": {
     "node": ">=8.0.0"
