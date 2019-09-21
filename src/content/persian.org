@@ -3,12 +3,12 @@
 #+TODO: DRAFT | PUBLISHED
 * PUBLISHED Overview: 30 Days of Persian Challenge
 CLOSED: [2019-09-21 Sat 16:26]
-** Hello there!
-#+begin_persian
+#+HTML: <div class="persian callout">
 
 سلام!
 
-#+end_persian
+#+HTML: </div>
+** Hello there!
 
 I'm going to start learning Persian over the next 30 days or so (I'll allow
 myself the odd cheat day).
