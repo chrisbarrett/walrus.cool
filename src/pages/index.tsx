@@ -6,6 +6,7 @@ import PostDate from '../components/post-date';
 import './index.css';
 
 interface OrgPost {
+  id: string;
   fields: {
     slug: string;
   };
@@ -23,20 +24,23 @@ interface QueryProps {
   };
 }
 
-const PostItem = styled((post: OrgPost) => (
-  <>
-    <h3>
-      <Link to={post.fields.slug}>{post.meta.title}</Link>
-    </h3>
-    <PostDate value={post.meta.date} />
-  </>
-))`
+const PostItem = styled((post: OrgPost) => {
+  const date = post.meta.date && new Date(post.meta.date);
+  return (
+    <>
+      <h3>
+        <Link to={post.fields.slug}>{post.meta.title}</Link>
+      </h3>
+      {date && <PostDate value={date} />}
+    </>
+  );
+})`
   margin-bottom: 4em;
 `;
 
 const Index: React.SFC<QueryProps> = ({ data }) => {
   const posts = data.allOrgContent.edges.map(({ node }) => (
-    <PostItem {...node} />
+    <PostItem key={node.id} {...node} />
   ));
   return <Layout>{posts}</Layout>;
 };
@@ -53,12 +57,13 @@ export const pageQuery = graphql`
     allOrgContent {
       edges {
         node {
+          id
           fields {
             slug
           }
           meta {
             title
-            date(formatString: "MMMM D YYYY")
+            date
           }
         }
       }

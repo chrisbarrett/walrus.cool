@@ -30,12 +30,13 @@ interface PageTemplateProps {
 const Template: React.SFC<PageTemplateProps> = ({ data }) => {
   const { meta, html } = data.orgContent;
   const processedHtml = emoji.emojify(html);
+  const date = meta.date && new Date(meta.date);
 
   return (
     <Layout>
       <article>
         <h1>{meta.title}</h1>
-        <PostDate value={meta.date} />
+        {date && <PostDate value={date} />}
         {/* eslint-disable-next-line react/no-danger */}
         <div dangerouslySetInnerHTML={{ __html: processedHtml }} />
       </article>
@@ -51,7 +52,7 @@ export const pageQuery = graphql`
       html
       meta {
         title
-        date(formatString: "MMMM D YYYY")
+        date
       }
     }
   }
