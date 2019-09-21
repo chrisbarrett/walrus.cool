@@ -1,8 +1,18 @@
+// typography libs
+
+declare module 'typography-theme-github' {
+  import { TypographyOptions } from 'typography';
+  const Theme: TypographyOptions;
+  export = Theme;
+}
+
+declare module 'typography-plugin-code';
+
+// type shims for CSS modules
+
 interface CSSModule {
   [className: string]: string;
 }
-
-// type shims for CSS modules
 
 declare module '*.module.scss' {
   const cssModule: CSSModule;

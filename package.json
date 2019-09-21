@@ -36,11 +36,6 @@
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sharp": "^2.2.1",
     "gatsby-plugin-typescript": "^2.1.0",
-    "gatsby-remark-copy-linked-files": "^2.1.0",
-    "gatsby-remark-images": "^3.1.0",
-    "gatsby-remark-prismjs": "^3.3.0",
-    "gatsby-remark-responsive-iframe": "^2.2.0",
-    "gatsby-remark-smartypants": "^2.1.0",
     "gatsby-source-filesystem": "^2.1.0",
     "gatsby-transformer-json": "^2.2.0",
     "gatsby-transformer-orga": "^1.5.8",
@@ -54,7 +49,10 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.2",
+    "typography": "^0.16.19",
+    "typography-plugin-code": "^0.16.19",
+    "typography-theme-github": "^0.16.19"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.8",
@@ -62,6 +60,7 @@
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
     "@types/react-helmet": "^5.0.8",
+    "@types/typography": "^0.16.3",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
     "eslint": "^6.0.0",
