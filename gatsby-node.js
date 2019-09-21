@@ -11,6 +11,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   // trip up. An empty string is still required in replacement to `null`.
 
   switch (node.internal.type) {
+    case 'OrgContent': {
+      const { createNodeField } = actions;
+      const { category, export_file_name } = node.meta;
+      const paths = ['/', category, export_file_name].filter(lpath => lpath);
+      const slug = path.posix.join(...paths);
+
+      createNodeField({
+        node,
+        name: 'slug',
+        value: slug || '',
+      });
+    }
+
     case 'MarkdownRemark': {
       const { permalink, layout } = node.frontmatter;
       const { relativePath } = getNode(node.parent);
@@ -38,10 +51,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 };
 
-exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+exports.createPages = async ({ graphql, actions, reporter }) => {
+  const orgQuery = graphql(`
+    {
+      allOrgContent(limit: 1000) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `);
 
-  const allMarkdown = await graphql(`
+  const mdQuery = graphql(`
     {
       allMarkdownRemark(limit: 1000) {
         edges {
@@ -56,25 +82,34 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  if (allMarkdown.errors) {
-    console.error(allMarkdown.errors);
-    throw new Error(allMarkdown.errors);
+  const allOrg = await orgQuery;
+  const allMarkdown = await mdQuery;
+
+  if (allOrg.errors) {
+    reporter.panic(allOrg.errors);
   }
+
+  if (allMarkdown.errors) {
+    reporter.panic(allMarkdown.errors);
+  }
+
+  const { createPage } = actions;
+
+  allOrg.data.allOrgContent.edges.forEach(({ node }) => {
+    const { slug, layout } = node.fields;
+    createPage({
+      path: slug,
+      component: path.resolve(`./src/templates/${layout || 'page'}.tsx`),
+      context: {
+        id: node.id,
+      },
+    });
+  });
 
   allMarkdown.data.allMarkdownRemark.edges.forEach(({ node }) => {
     const { slug, layout } = node.fields;
-
     createPage({
       path: slug,
-      // This will automatically resolve the template to a corresponding
-      // `layout` frontmatter in the Markdown.
-      //
-      // Feel free to set any `layout` as you'd like in the frontmatter, as
-      // long as the corresponding template file exists in src/templates.
-      // If no template is set, it will fall back to the default `page`
-      // template.
-      //
-      // Note that the template has to exist first, or else the build will fail.
       component: path.resolve(`./src/templates/${layout || 'page'}.tsx`),
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
