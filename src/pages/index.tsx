@@ -37,7 +37,9 @@ const PostItem = (post: OrgPost) => (
 );
 
 const Index: React.SFC<Props> = ({ data }) => {
-  const posts = data.allOrgContent.edges.map(({ node }) => <PostItem {...node} />);
+  const posts = data.allOrgContent.edges.map(({ node }) => (
+    <PostItem {...node} />
+  ));
   return <Layout>{posts}</Layout>;
 };
 
