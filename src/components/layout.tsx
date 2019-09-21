@@ -5,7 +5,7 @@ import styled from '@emotion/styled';
 
 const StyledLayout = styled.div`
   margin: 0 auto;
-  max-width: 720;
+  max-width: 720px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
 `;
