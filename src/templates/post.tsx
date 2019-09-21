@@ -33,10 +33,12 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
 
   return (
     <Layout>
-      <h1>{meta.title}</h1>
-      <PostDate value={meta.date} />
-      {/* eslint-disable-next-line react/no-danger */}
-      <div dangerouslySetInnerHTML={{ __html: processedHtml }} />
+      <article>
+        <h1>{meta.title}</h1>
+        <PostDate value={meta.date} />
+        {/* eslint-disable-next-line react/no-danger */}
+        <div dangerouslySetInnerHTML={{ __html: processedHtml }} />
+      </article>
     </Layout>
   );
 };
