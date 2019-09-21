@@ -25,15 +25,15 @@ interface PageTemplateProps {
   };
 }
 
-const Template: React.SFC<PageTemplateProps> = props => {
-  const post = props.data.orgContent;
-  const { title, date } = post.meta;
+const Template: React.SFC<PageTemplateProps> = ({ data }) => {
+  const { meta, html } = data.orgContent;
 
   return (
     <Layout>
-      <h1>{title}</h1>
-      <small>{date}</small>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <h1>{meta.title}</h1>
+      <small>{meta.date}</small>
+      {/* eslint-disable-next-line react/no-danger */}
+      <div dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   );
 };

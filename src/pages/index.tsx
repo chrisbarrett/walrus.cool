@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
+import styled from '@emotion/styled';
 import Layout from '../components/layout';
 
 interface OrgPost {
@@ -16,42 +16,30 @@ interface OrgPost {
 interface Props {
   data: {
     allOrgContent: {
-      edges: Array<{ node: OrgPost }>;
+      edges: { node: OrgPost }[];
     };
   };
 }
 
-const PostItem = (node: OrgPost) => {
-  const title = node.meta.title || node.fields.slug;
-  const date = node.meta.date || 'no date';
-  return (
-    <div>
-      <h3 style={{ marginBottom: '0.2em' }}>
-        <Link to={node.fields.slug}>{title}</Link>
-      </h3>
-      <small>{date}</small>
-    </div>
-  );
-};
+const StyledPost = styled.h3`
+  margin-bottom: 0.2em;
+`;
 
-const Preamble: React.SFC = () => (
-  <>
-    <h1>Hi org-mode people</h1>
-    <p>Welcome to your new org-mode based Gatsby site.</p>
-  </>
+const PostItem = (post: OrgPost) => (
+  <StyledPost>
+    <h3>
+      <Link to={post.fields.slug}>{post.meta.title}</Link>
+    </h3>
+    <small>{post.meta.date}</small>
+  </StyledPost>
 );
 
-const BlogIndex: React.SFC<Props> = ({ data }) => {
+const Index: React.SFC<Props> = ({ data }) => {
   const posts = data.allOrgContent.edges.map(({ node }) => <PostItem {...node} />);
-  return (
-    <Layout>
-      <Preamble />
-      {posts}
-    </Layout>
-  );
+  return <Layout>{posts}</Layout>;
 };
 
-export default BlogIndex;
+export default Index;
 
 export const pageQuery = graphql`
   query IndexQuery {
