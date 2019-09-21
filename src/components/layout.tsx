@@ -13,7 +13,9 @@ const StyledLayout = styled.div`
 const Layout: React.SFC = ({ children }) => (
   <>
     <Header />
-    <StyledLayout>{children}</StyledLayout>
+    <main>
+      <StyledLayout>{children}</StyledLayout>
+    </main>
   </>
 );
 
