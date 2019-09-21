@@ -20,9 +20,7 @@ const Header: React.SFC<Props> = ({ className }) => (
     render={data => (
       <div className={className}>
         <h1>
-          <Link to="/" style={{ textDecoration: 'none', color: 'gray' }}>
-            {data.site.siteMetadata.title}
-          </Link>
+          <Link to="/">{data.site.siteMetadata.title}</Link>
         </h1>
       </div>
     )}
@@ -31,10 +29,14 @@ const Header: React.SFC<Props> = ({ className }) => (
 
 export default styled(Header)`
   display: flex;
-  color: gray;
-  margin: '0 auto';
+  margin: 0 auto;
   margin-top: 1.5em;
   margin-bottom: 2em;
   maxwidth: 960;
   padding: 1.45rem 1.0875rem;
+
+  & a {
+    text-decoration: none;
+    color: gray;
+  }
 `;
