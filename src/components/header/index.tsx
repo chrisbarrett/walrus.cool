@@ -1,12 +1,15 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
+import { StaticQuery, graphql, Link } from 'gatsby';
 import styled from '@emotion/styled';
 
 const StyledHeader = styled.div`
   display: flex;
-  background: white;
+  color: gray;
+  margin: '0 auto';
   margin-top: 1.5em;
   margin-bottom: 2em;
+  maxwidth: 960;
+  padding: 1.45rem 1.0875rem;
 `;
 
 interface Props {
@@ -14,27 +17,26 @@ interface Props {
 }
 
 const Header: React.SFC<Props> = ({ className }) => (
-  <StyledHeader className={className}>
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'gray',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby + Orga
-        </Link>
-      </h1>
-    </div>
-  </StyledHeader>
+  <StaticQuery
+    query={graphql`
+      query HeadingQuery {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `}
+    render={data => (
+      <StyledHeader className={className}>
+        <h1>
+          <Link to="/" style={{ textDecoration: 'none', color: 'gray' }}>
+            {data.site.siteMetadata.title}
+          </Link>
+        </h1>
+      </StyledHeader>
+    )}
+  />
 );
 
 export default Header;

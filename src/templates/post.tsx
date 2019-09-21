@@ -48,7 +48,7 @@ export const pageQuery = graphql`
       html
       meta {
         title
-        date
+        date(formatString: "MMMM D YYYY")
       }
     }
   }

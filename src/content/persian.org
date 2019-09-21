@@ -1,0 +1,33 @@
+#+TITLE: 30 Days of Persian
+#+ORGA_PUBLISH_KEYWORD: PUBLISHED
+#+TODO: DRAFT | PUBLISHED
+
+* PUBLISHED Overview: 30 Days of Persian Challenge
+CLOSED: [2019-09-21 Sat 16:26]
+
+** Hello there!
+#+begin_persian
+
+سلام!
+
+#+end_persian
+
+I'm going to start learning Persian over the next 30 days or so (I'll allow
+myself the odd cheat day).
+
+I'll be using [[https://www.chaiandconversation.com/][Chai & Conversation]] as my main resource. Since I'm also interested
+in learning how to write informal Persian, I'll use Google Translate and some
+other Internet resources to help me transcribe what I hear.
+** Why Persian?
+I've studied Standard Arabic on my own for about a year. It's been a lot of fun
+but I've met a lot more Iranians in my day-to-day life (and dated a few
+:sweat_smile:), so I've decided to switch over.
+
+My prior exposure to Arabic gives me a head-start on the Persian writing system.
+Furthermore, Persian borrows a lot of vocabulary from Arabic. This makes
+learning the language much easier for me!
+** Why a 30 Day Challenge?
+I want to cultivate a regular study habit, and I'm curious to see if this
+approach gets me into the mood.
+* DRAFT Day One: Revision
+I've already
