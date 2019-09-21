@@ -18,11 +18,11 @@ const Header: React.SFC<Props> = ({ className }) => (
       }
     `}
     render={data => (
-      <div className={className}>
+      <header className={className}>
         <h1>
           <Link to="/">{data.site.siteMetadata.title}</Link>
         </h1>
-      </div>
+      </header>
     )}
   />
 );
