@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import emoji from 'node-emoji';
 import Layout from '../components/layout';
+import PostDate from '../components/post-date';
 
 interface PageTemplateProps {
   data: {
@@ -33,7 +34,7 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
   return (
     <Layout>
       <h1>{meta.title}</h1>
-      <small>{meta.date}</small>
+      <PostDate value={meta.date} />
       {/* eslint-disable-next-line react/no-danger */}
       <div dangerouslySetInnerHTML={{ __html: processedHtml }} />
     </Layout>

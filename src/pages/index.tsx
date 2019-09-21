@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Link, graphql } from 'gatsby';
 import styled from '@emotion/styled';
 import Layout from '../components/layout';
+import PostDate from '../components/post-date';
 import './index.css';
 
 interface OrgPost {
@@ -31,7 +32,7 @@ const PostItem = (post: OrgPost) => (
     <h3>
       <Link to={post.fields.slug}>{post.meta.title}</Link>
     </h3>
-    <small>{post.meta.date}</small>
+    <PostDate value={post.meta.date} />
   </StyledPost>
 );
 
@@ -57,7 +58,7 @@ export const pageQuery = graphql`
           }
           meta {
             title
-            date
+            date(formatString: "MMMM D YYYY")
           }
         }
       }
