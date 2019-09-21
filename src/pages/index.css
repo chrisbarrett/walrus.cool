@@ -2,3 +2,8 @@
   direction: rtl;
   font-family: none;
 }
+
+.footnote::before {
+  content: '[' attr(data-label) ']';
+  display: inline-block;
+}
