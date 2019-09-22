@@ -5,9 +5,7 @@
 * PUBLISHED Overview: 30 Days of Persian Challenge
 CLOSED: [2019-09-21 Sat 16:26]
 #+HTML: <div class="persian callout">
-
 سلام!
-
 #+HTML: </div>
 ** Hello there!
 I'm going to start learning Persian over the next 30 days or so (I'll allow
@@ -27,5 +25,52 @@ things easier.
 ** Why a 30 Day Challenge?
 I want to cultivate a regular study habit, and I'm curious to see if this
 approach gets me into the mood.
-* DRAFT Day One: Revision
-I've already
+* PUBLISHED 30 Days of Persian: Day One
+CLOSED: [2019-09-22 Sun 22:31]
+- [[https://www.chaiandconversation.com/podcast/how-greet-people-and-ask-how-theyre-doing][How to Greet People and Ask How They're Doing]]
+- I've already studied this, so it's revision.
+** Phrases
+- سلام
+  - Hello
+- چطوری
+  - How are you?
+- سلام، چطوری!
+  - Hi, how are you?
+- خوبم
+  - I'm well
+- مرسی
+  - Thank you
+    - Persians will actually pronounce the =/r/= as a uvular frictive to closer
+      mimic the French pronunciation.
+- خیلی خوبم
+  - I'm very well
+  - خیلی...
+  - خیلی خوب
+    - Very good
+- خوب نیستم
+  - I'm not good
+- بد نیستم
+  - I'm not bad
+- من
+  - Me/I
+  - 1st person subject or object pronoun
+- عالی
+  - (I'm) great
+** Conversation 1
+- لیلا: سلام مت، چطوری؟
+- مت: خوبم مرسی. چطوری؟
+- لیلا: خوبم مرسی.
+** Conversation 2
+- لیلا: سلام مت. چطوری؟
+- مت: بد نیستم. چطوری؟
+- لیلا: من؟ خوبم مرسی.
+** Conversation 3
+- لیلا: سلام مت. چطوری؟
+- مت: عالی!
+** Notes
+- The Wikipedia page on [[https://en.wikipedia.org/wiki/Persian_phonology][Persian Phonology]] is a good reference for consonant
+  values
+- See also [[https://en.wikipedia.org/wiki/Classical_Arabic#Phonology][Classical Arabic#Phonology]] for comparison
+- Persian pronunciation does not distinguish several sounds that are represented by different letters in the script.
+  - E.g. ط ⟨tˠ⟩ and ت ⟨t⟩ have different values in Standard Arabic, but are both ⟨t⟩ in Persian
+* DRAFT 30 Days of Persian: Day Two
