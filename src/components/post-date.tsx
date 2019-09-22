@@ -8,7 +8,7 @@ interface Props {
 
 const dateFormatter = new Intl.DateTimeFormat(undefined, {
   dateStyle: 'full',
-} as any);
+} as Intl.DateTimeFormatOptions);
 
 export const PostDate: React.SFC<Props> = ({ className, value }) => {
   const humanFormatted = dateFormatter.format(value);
