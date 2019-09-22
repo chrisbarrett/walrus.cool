@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import emoji from 'node-emoji';
 import Layout from '../components/layout';
 import PostDate from '../components/post-date';
+import cheerio from 'cheerio';
 
 interface PageTemplateProps {
   data: {
@@ -27,10 +28,24 @@ interface PageTemplateProps {
   };
 }
 
+const matchArabicOrPersian = /[آ-ی]/;
+
 const Template: React.SFC<PageTemplateProps> = ({ data }) => {
   const { meta, html } = data.orgContent;
-  const processedHtml = emoji.emojify(html);
   const date = meta.date && new Date(meta.date);
+
+  const $ = cheerio.load(emoji.emojify(html));
+
+  // If there are arabic chars in the first few chars of a list item, make it
+  // RTL.
+  $('dt').each(function(_i, element) {
+    const definition = $(element);
+    const sample = definition.text().substring(0, 10);
+
+    if (matchArabicOrPersian.test(sample)) {
+      $(definition).attr('dir', 'rtl');
+    }
+  });
 
   return (
     <Layout>
@@ -38,7 +53,7 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
         <h1>{meta.title}</h1>
         {date && <PostDate value={date} />}
         {/* eslint-disable-next-line react/no-danger */}
-        <div dangerouslySetInnerHTML={{ __html: processedHtml }} />
+        <div dangerouslySetInnerHTML={{ __html: $.html() }} />
       </article>
     </Layout>
   );
