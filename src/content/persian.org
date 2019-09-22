@@ -1,6 +1,7 @@
 #+TITLE: 30 Days of Persian
 #+ORGA_PUBLISH_KEYWORD: PUBLISHED
 #+TODO: DRAFT | PUBLISHED
+#+FILETAGS: persian
 * PUBLISHED Overview: 30 Days of Persian Challenge
 CLOSED: [2019-09-21 Sat 16:26]
 #+HTML: <div class="persian callout">
@@ -9,7 +10,6 @@ CLOSED: [2019-09-21 Sat 16:26]
 
 #+HTML: </div>
 ** Hello there!
-
 I'm going to start learning Persian over the next 30 days or so (I'll allow
 myself the odd cheat day).
 
@@ -18,12 +18,12 @@ in learning how to write informal Persian, I'll use Google Translate and some
 other Internet resources to help me transcribe what I hear.
 ** Why Persian?
 I've studied Standard Arabic on my own for about a year. It's been a lot of fun
-but I've met a lot more Iranians in my day-to-day life (and dated a few
-:sweat_smile:), so I've decided to switch over.
+but I've met a lot more Iranians than Arabic-speakers in my day-to-day life, so
+I've decided to switch over. I've also dated a few Persians. :sweat_smile:
 
-My prior exposure to Arabic gives me a head-start on the Persian writing system.
-Furthermore, Persian borrows a lot of vocabulary from Arabic. This makes
-learning the language much easier for me!
+My prior exposure to Arabic means I'm already comfy with the Persian writing
+system. As a bonus, Persian borrows a lot of vocabulary from Arabic, which makes
+things easier.
 ** Why a 30 Day Challenge?
 I want to cultivate a regular study habit, and I'm curious to see if this
 approach gets me into the mood.
