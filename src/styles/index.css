@@ -4,12 +4,6 @@
   --title-fg-color: gray;
 }
 
-.rtl,
-.persian {
-  direction: rtl;
-  font-family: none;
-}
-
 .callout {
   font-size: 32pt;
   position: relative;

@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from '@emotion/styled';
 import { graphql } from 'gatsby';
 import emoji from 'node-emoji';
 import Layout from '../components/layout';
@@ -52,16 +53,38 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
   return (
     <Layout>
       <article>
-        <h1>{meta.title}</h1>
-        {date && <PostDate value={date} />}
-        {/* eslint-disable-next-line react/no-danger */}
-        <div dangerouslySetInnerHTML={{ __html: $.html() }} />
+        <Styles>
+          <h1>{meta.title}</h1>
+          {date && <PostDate value={date} />}
+          {/* eslint-disable-next-line react/no-danger */}
+          <div dangerouslySetInnerHTML={{ __html: $.html() }} />
+        </Styles>
       </article>
     </Layout>
   );
 };
 
 export default Template;
+
+const Styles = styled.div`
+  & .rtl {
+    direction: rtl;
+    text-align: right;
+  }
+
+  & dl {
+    line-height: 2em;
+  }
+
+  & dt.rtl {
+    float: right;
+    clear: right;
+  }
+
+  & dd {
+    margin-left: 0;
+  }
+`;
 
 export const pageQuery = graphql`
   query BlogPostQuery($id: String!) {
