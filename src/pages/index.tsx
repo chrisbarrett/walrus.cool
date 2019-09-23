@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby';
 import styled from '@emotion/styled';
 import Layout from '../components/layout';
 import PostDate from '../components/post-date';
-import './index.css';
 
 interface OrgPost {
   id: string;

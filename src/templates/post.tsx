@@ -83,6 +83,12 @@ const Styles = styled.div`
 
   & dd {
     margin-left: 0;
+    color: var(--fg-dim-color);
+    font-style: italic;
+  }
+
+  & dd li {
+    max-width: 300px;
   }
 `;
 
