@@ -38,12 +38,14 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
 
   // If there are arabic chars in the first few chars of a list item, make it
   // RTL.
-  $('dt').each(function(_i, element) {
+  $('dt, li').each(function(_i, element) {
     const definition = $(element);
-    const sample = definition.text().substring(0, 10);
+    const sample = definition.text().substring(0, 5);
 
     if (matchArabicOrPersian.test(sample)) {
-      $(definition).attr('dir', 'rtl');
+      $(definition)
+        .attr('dir', 'rtl')
+        .addClass('rtl');
     }
   });
 
