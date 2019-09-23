@@ -30,32 +30,20 @@ CLOSED: [2019-09-22 Sun 22:31]
 - [[https://www.chaiandconversation.com/podcast/how-greet-people-and-ask-how-theyre-doing][How to Greet People and Ask How They're Doing]]
 - I've already studied this, so it's revision.
 ** Phrases
-- سلام ::
-  hello
-- چطوری ::
-  how are you?
-- سلام، چطوری! ::
-  hi, how are you?
-- خوبم ::
-  I'm well
-- مرسی ::
-  thank you
+- سلام :: hello
+- چطوری :: how are you?
+- سلام، چطوری! :: hi, how are you?
+- خوبم :: I'm well
+- مرسی :: thank you
   - Persians will actually pronounce the =/r/= as a uvular frictive to closer
     mimic the French pronunciation.
-- خیلی خوبم ::
-  I'm very well
-  - خیلی... ::
-    very...
-  - خیلی خوب ::
-    very good
-- عالی ::
-  (I'm) great
-- خوب نیستم ::
-  I'm not good
-- بد نیستم ::
-  I'm not bad
-- من ::
-  me/I
+- خیلی خوبم :: I'm very well
+  - خیلی... :: very...
+  - خیلی خوب :: very good
+- عالی :: (I'm) great
+- خوب نیستم :: I'm not good
+- بد نیستم :: I'm not bad
+- من :: me/I
   - 1st person subject or object pronoun
 ** Conversation 1
 - لیلا: سلام مت، چطوری؟
@@ -74,4 +62,38 @@ CLOSED: [2019-09-22 Sun 22:31]
 - See also [[https://en.wikipedia.org/wiki/Classical_Arabic#Phonology][Classical Arabic#Phonology]] for comparison
 - Persian pronunciation does not distinguish several sounds that are represented by different letters in the script.
   - E.g. ط ⟨tˠ⟩ and ت ⟨t⟩ have different values in Standard Arabic, but are both ⟨t⟩ in Persian
-* DRAFT 30 Days of Persian: Day Two
+* PUBLISHED 30 Days of Persian: Day Two
+CLOSED: [2019-09-23 Mon 21:32]
+- [[https://www.chaiandconversation.com/podcast/how-greet-people-different-times-day-say-goodbye-and-introduce-yourself][How to Greet People at Different Times of Day, Say Goodbye, and Introduce Yourself]]
+- I've already studied this, so it's revision.
+** Phrases
+*** Time of Day
+- صبح بخیر :: good morning
+- روز بخیر :: good day
+- عصر بخیر :: good afternoon
+- شب بخیر :: good night
+*** Farewells
+- خداحافظ :: goodbye
+  - خدافظ :: goodbye (abbrev.)
+- فعلا :: for now (i.e. until next time)
+- به امید دیدار :: hope to see you again
+- خداحافظ فعلا :: goodbye for now
+- خداحافظ به امید دیدار :: goodbye and hope to see you again
+- طو... :: until...
+  - طو بعد :: until later
+  - طو فردا :: until tomorrow
+*** Saying your name
+- اسم من «اسم» هست :: my name is «NAME»
+  - اسم من کرس هست :: my name is Chris
+- خوشوغتم :: pleased to meet you
+** Conversation
+- لیلا: سلام، صبح بخیر.
+- مت: سلام، صبح بخیر.
+- لیلا: چطوری؟
+- مت: خوبم مرسی. چطوری؟
+- لیلا: خوبم مرسی. اسم من لیلا هست.
+- مت: خوشوغتم. اسم من مت هست.
+- لیلا: خوشوغتم.
+* DRAFT 30 Days of Persian: Day Three
+- [[https://www.chaiandconversation.com/podcast/how-introduce-where-you-are-and-introducing-different-forms-you][How to Introduce Where You are From, and Introducing the Different forms of You]]
+- I've already studied this, so it's revision.
