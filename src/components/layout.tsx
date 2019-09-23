@@ -9,6 +9,21 @@ const StyledLayout = styled.div`
   max-width: 720px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
+
+  & .callout {
+    font-size: 32pt;
+    position: relative;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    text-align: center;
+    border-top: 1px var(--border-color) solid;
+    border-bottom: 1px var(--border-color) solid;
+  }
+
+  & .footnote::before {
+    content: '[' attr(data-label) ']';
+    display: inline-block;
+  }
 `;
 
 const Layout: React.SFC = ({ children }) => (
