@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './header';
 import 'prismjs/themes/prism-solarizedlight.css';
 import styled from '@emotion/styled';
 import { Helmet } from 'react-helmet';
+import Header from './header';
 
 const StyledLayout = styled.div`
   margin: 0 auto;

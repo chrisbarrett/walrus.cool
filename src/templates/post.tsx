@@ -2,9 +2,9 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { graphql } from 'gatsby';
 import emoji from 'node-emoji';
+import cheerio from 'cheerio';
 import Layout from '../components/layout';
 import PostDate from '../components/post-date';
-import cheerio from 'cheerio';
 
 interface PageTemplateProps {
   data: {
