@@ -4,7 +4,7 @@
 #+FILETAGS: persian
 * PUBLISHED Overview: 30 Days of Persian Challenge
 CLOSED: [2019-09-21 Sat 16:26]
-#+HTML: <div class="persian callout">
+#+HTML: <div dir="rtl" class="callout">
 سلام!
 #+HTML: </div>
 ** Hello there!
@@ -28,7 +28,6 @@ approach gets me into the mood.
 * PUBLISHED 30 Days of Persian: Day One
 CLOSED: [2019-09-22 Sun 22:31]
 - [[https://www.chaiandconversation.com/podcast/how-greet-people-and-ask-how-theyre-doing][How to Greet People and Ask How They're Doing]]
-- I've already studied this, so it's revision.
 ** Phrases
 - سلام :: hello
 - چطوری :: how are you?
@@ -65,7 +64,6 @@ CLOSED: [2019-09-22 Sun 22:31]
 * PUBLISHED 30 Days of Persian: Day Two
 CLOSED: [2019-09-23 Mon 21:32]
 - [[https://www.chaiandconversation.com/podcast/how-greet-people-different-times-day-say-goodbye-and-introduce-yourself][How to Greet People at Different Times of Day, Say Goodbye, and Introduce Yourself]]
-- I've already studied this, so it's revision.
 ** Phrases
 *** Time of Day
 - صبح بخیر :: good morning
@@ -96,4 +94,3 @@ CLOSED: [2019-09-23 Mon 21:32]
 - لیلا: خوشوغتم.
 * DRAFT 30 Days of Persian: Day Three
 - [[https://www.chaiandconversation.com/podcast/how-introduce-where-you-are-and-introducing-different-forms-you][How to Introduce Where You are From, and Introducing the Different forms of You]]
-- I've already studied this, so it's revision.
