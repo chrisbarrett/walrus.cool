@@ -10,6 +10,9 @@ const StyledLayout = styled.div`
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
 
+  font-family: 'Palatino', 'Times New Roman', serif;
+  line-height: 1.5;
+
   & .callout {
     font-size: 32pt;
     position: relative;
@@ -23,6 +26,17 @@ const StyledLayout = styled.div`
   & .footnote::before {
     content: '[' attr(data-label) ']';
     display: inline-block;
+  }
+
+  & h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
+    font-family: 'SF Pro Display', 'Helvetica Neue', 'Helvetica', 'Arial',
+      sans-serif;
   }
 `;
 
