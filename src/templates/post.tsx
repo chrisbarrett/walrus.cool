@@ -42,8 +42,7 @@ const postProcessHtml = (html: string): string => {
     if (matchArabicOrPersian.test(sample)) {
       $(definition)
         .attr('dir', 'rtl')
-        .attr('lang', 'fa')
-        .addClass('rtl');
+        .attr('lang', 'fa');
     }
   });
 
@@ -80,16 +79,11 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
 export default Template;
 
 const Styles = styled.div`
-  & .rtl {
-    direction: rtl;
-    text-align: right;
-  }
-
   & dl {
     line-height: 2em;
   }
 
-  & dt.rtl {
+  & dt:dir(rtl) {
     float: right;
     clear: right;
   }
