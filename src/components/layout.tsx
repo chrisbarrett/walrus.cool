@@ -22,11 +22,6 @@ const StyledLayout = styled.div`
     border-bottom: 1px var(--border-color) solid;
   }
 
-  & .footnote::before {
-    content: '[' attr(data-label) ']';
-    display: inline-block;
-  }
-
   & h1,
   h2,
   h3,
