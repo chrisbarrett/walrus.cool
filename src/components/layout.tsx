@@ -22,6 +22,18 @@ const StyledLayout = styled.div`
     border-bottom: 1px var(--border-color) solid;
   }
 
+  & a {
+    color: #0070c9;
+  }
+  & a:link,
+  & a:visited,
+  a:active {
+    text-decoration: none;
+  }
+  & a:hover {
+    text-decoration: underline;
+  }
+
   & h1,
   h2,
   h3,
