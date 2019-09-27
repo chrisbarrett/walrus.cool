@@ -103,15 +103,15 @@ CLOSED: [2019-09-27 Fri 21:19]
 ** Formality
 - Persian distinguishes between /formal/ and /informal/ modes of address
 - this is mainly expressed in pronouns and verbs in the second person
-- the 'تو' pronoun (2p.inf) is used for those younger or less senior than you
-- the 'شما' pronoun (2p.forml) is used for those older or to express respect
+- the /تو/ pronoun (2p.inf) is used for those younger or less senior than you
+- the /شما/ pronoun (2p.forml) is used for those older or to express respect
 *** Conversation: Informal
-- Note that the 'تو' pronoun is used.
+- Note that the /تو/ pronoun is used.
 - لیلا: اسم تو چیه؟
 - مت: اسم من مت هست. اسم تو چیه؟
 - لیلا: اسم من لیلا هست.
-**** Conversation: Formal
-- Note that the 'شما' pronoun is used.
+*** Conversation: Formal
+- Note that the /شما/ pronoun is used.
 - لیلا: اسم شما چیه؟
 - مت: اسم من مت هست. اسم شما چیه؟
 - لیلا: اسم من لیلا هست.
@@ -120,7 +120,7 @@ CLOSED: [2019-09-27 Fri 21:19]
 - شما اهل کجا هستین؟ :: where are you from? (formal)
 - کُجا؟ :: where?
 
-- N.B. that 'هستی' becomes 'هستین' in the 2p.forml conjugation of the verb
+- N.B. that /هستی/ becomes /هستین/ in the 2p.forml conjugation of the verb
 
 - من از «کشور» هستم.  :: I'm from <COUNTRY>
 
