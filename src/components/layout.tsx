@@ -18,7 +18,6 @@ const StyledLayout = styled.div`
     position: relative;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
-    text-align: center;
     border-top: 1px var(--border-color) solid;
     border-bottom: 1px var(--border-color) solid;
   }
