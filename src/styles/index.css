@@ -3,4 +3,7 @@
   --border-color: #eee;
   --fg-dim-color: gray;
   --title-fg-color: gray;
+
+  --viewport-width-large: 1068px;
+  --viewport-width-small: 735px;
 }

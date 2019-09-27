@@ -53,6 +53,28 @@ const StyledLayout = styled.div`
     font-family: 'SF Pro AR', 'SF Pro Gulf', 'Palatino', 'Times New Roman',
       serif;
   }
+
+  @media only screen and (max-width: var(--viewport-width-large)) {
+    & h1 {
+      font-size: 34px;
+      text-align: center;
+    }
+
+    & h2 {
+      font-size: 28px;
+    }
+  }
+
+  @media only screen and (max-width: var(--viewport-width-small)) {
+    & h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+
+    & h2 {
+      font-size: 24px;
+    }
+  }
 `;
 
 const Layout: React.SFC = ({ children }) => (
