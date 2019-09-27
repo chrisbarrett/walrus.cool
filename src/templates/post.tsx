@@ -31,10 +31,7 @@ interface PageTemplateProps {
 
 const matchArabicOrPersian = /[آ-ی]/;
 
-const Template: React.SFC<PageTemplateProps> = ({ data }) => {
-  const { meta, html } = data.orgContent;
-  const date = meta.date && new Date(meta.date);
-
+const postProcessHtml = (html: string): string => {
   const $ = cheerio.load(emoji.emojify(html));
 
   // Apply lang tags and text-direction for Persian text.
@@ -58,6 +55,13 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
     const updated = `h${parseInt(level, 10) + 1}`;
     heading.replaceWith(`<${updated}>${heading.html()}</${updated}>`);
   });
+  return $.html();
+};
+
+const Template: React.SFC<PageTemplateProps> = ({ data }) => {
+  const { meta, html } = data.orgContent;
+  const date = meta.date && new Date(meta.date);
+  const updatedHtml = postProcessHtml(html);
 
   return (
     <Layout>
@@ -66,7 +70,7 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
           <h1>{meta.title}</h1>
           {date && <PostDate value={date} />}
           {/* eslint-disable-next-line react/no-danger */}
-          <div dangerouslySetInnerHTML={{ __html: $.html() }} />
+          <div dangerouslySetInnerHTML={{ __html: updatedHtml }} />
         </Styles>
       </article>
     </Layout>
