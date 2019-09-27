@@ -45,6 +45,10 @@ const StyledLayout = styled.div`
       sans-serif;
   }
 
+  *:lang(fa) {
+    font-size: 1.2em;
+  }
+
   p:lang(fa) {
     font-family: 'SF Pro AR', 'SF Pro Gulf', 'Palatino', 'Times New Roman',
       serif;
