@@ -4,7 +4,7 @@
 #+FILETAGS: persian
 * PUBLISHED Overview: 30 Days of Persian Challenge
 CLOSED: [2019-09-21 Sat 16:26]
-#+HTML: <div dir="rtl" class="callout">
+#+HTML: <div class="callout">
 سلام!
 #+HTML: </div>
 ** Hello there!
