@@ -42,7 +42,8 @@ const postProcessHtml = (html: string): string => {
     if (matchArabicOrPersian.test(sample)) {
       $(definition)
         .attr('dir', 'rtl')
-        .attr('lang', 'fa');
+        .attr('lang', 'fa')
+        .addClass('rtl');
     }
   });
 
@@ -83,7 +84,7 @@ const Styles = styled.div`
     line-height: 2em;
   }
 
-  & dt:dir(rtl) {
+  & dt.rtl {
     float: right;
     clear: right;
   }

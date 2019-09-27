@@ -36,6 +36,10 @@ const StyledLayout = styled.div`
       sans-serif;
   }
 
+  .rtl {
+    text-align: right;
+  }
+
   *:lang(fa) {
     font-size: 1.2em;
   }
