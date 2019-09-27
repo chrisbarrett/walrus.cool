@@ -92,5 +92,61 @@ CLOSED: [2019-09-23 Mon 21:32]
 - لیلا: خوبم مرسی. اسم من لیلا هست.
 - مت: خوشوغتم. اسم من مت هست.
 - لیلا: خوشوغتم.
-* DRAFT 30 Days of Persian: Day Three
+* PUBLISHED 30 Days of Persian: Day Three
+CLOSED: [2019-09-27 Fri 21:19]
 - [[https://www.chaiandconversation.com/podcast/how-introduce-where-you-are-and-introducing-different-forms-you][How to Introduce Where You are From, and Introducing the Different forms of You]]
+** Asking about names
+- اسم من «اسم» هست :: my name is <NAME>
+  - اسم من کرس هست :: my name is Chris
+- و [تو/شما]؟ :: and you?
+- اسم [تو/شما] چیه؟ :: what's your name?
+** Formality
+- Persian distinguishes between /formal/ and /informal/ modes of address
+- this is mainly expressed in pronouns and verbs in the second person
+- the 'تو' pronoun (2p.inf) is used for those younger or less senior than you
+- the 'شما' pronoun (2p.forml) is used for those older or to express respect
+*** Conversation: Informal
+- Note that the 'تو' pronoun is used.
+- لیلا: اسم تو چیه؟
+- مت: اسم من مت هست. اسم تو چیه؟
+- لیلا: اسم من لیلا هست.
+**** Conversation: Formal
+- Note that the 'شما' pronoun is used.
+- لیلا: اسم شما چیه؟
+- مت: اسم من مت هست. اسم شما چیه؟
+- لیلا: اسم من لیلا هست.
+** Asking where you're from
+- تو اهل کجا هستی؟ :: where are you from? (informal)
+- شما اهل کجا هستین؟ :: where are you from? (formal)
+- کُجا؟ :: where?
+
+- N.B. that 'هستی' becomes 'هستین' in the 2p.forml conjugation of the verb
+
+- من از «کشور» هستم.  :: I'm from <COUNTRY>
+
+- من از...
+
+  - نیوزیلند :: New Zealand
+  - استرالیا :: Australia
+  - ایران :: Iran
+  - ترکیه :: Turkey
+  - عراق :: Iraq
+  - سوریا :: Syria
+  - روسیه :: Russia
+  - بریتانیا/انگلستان :: Britain/England
+  - امریکا :: United States of America
+  - اسپانیا :: Spain
+  - فرانسه :: France
+  - آلمان :: Germany
+*** Conversation
+- مت: تو اهل کجا هستی؟
+- لیلا: من از امریکا هستم.
+*** Conversation
+- ریکاردو: اسم من ریکاردو هست و من از اسپانیا هستم.
+- ژولیت: لسم من ژولیت هست و من هم از اسپانیا هستم.
+  - هم :: also, as well
+*** Conversation
+- لیلا: اسم من لیلا هست و من از امریکا هستم.
+- مت: اسم من مت هست و من هم از امریکا هستم.
+* DRAFT 30 Days of Persian: Day Four
+- [[https://www.chaiandconversation.com/podcast/how-say-where-you-live-and-answer-simple-questions][How to Say Where You Live, and Answer Simple Questions]]
