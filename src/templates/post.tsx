@@ -99,6 +99,15 @@ const Styles = styled.div`
   & dd li {
     max-width: 300px;
   }
+
+  & .callout {
+    font-size: 32pt;
+    position: relative;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    border-top: 1px var(--border-color) solid;
+    border-bottom: 1px var(--border-color) solid;
+  }
 `;
 
 export const pageQuery = graphql`

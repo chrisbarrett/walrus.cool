@@ -13,15 +13,6 @@ const StyledLayout = styled.div`
   font-family: 'Palatino', 'Times New Roman', serif;
   line-height: 1.5;
 
-  & .callout {
-    font-size: 32pt;
-    position: relative;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-    border-top: 1px var(--border-color) solid;
-    border-bottom: 1px var(--border-color) solid;
-  }
-
   & a {
     color: #0070c9;
   }
