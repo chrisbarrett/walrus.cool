@@ -51,6 +51,15 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
     }
   });
 
+  // Shift heading tags in generated HTML so we can use h1 for the page title.
+  $('h1, h2, h3, h4, h5').each((_i, element) => {
+    const heading = $(element);
+    const name = heading.prop('tagName');
+    const [, level] = name.match(/^h([\d]+)$/i);
+    const updated = `h${parseInt(level, 10) + 1}`;
+    heading.replaceWith(`<${updated}>${heading.html()}</${updated}>`);
+  });
+
   return (
     <Layout>
       <article>
