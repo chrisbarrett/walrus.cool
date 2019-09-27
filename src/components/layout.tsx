@@ -44,6 +44,11 @@ const StyledLayout = styled.div`
     font-family: 'SF Pro Display', 'Helvetica Neue', 'Helvetica', 'Arial',
       sans-serif;
   }
+
+  p:lang(fa) {
+    font-family: 'SF Pro AR', 'SF Pro Gulf', 'Palatino', 'Times New Roman',
+      serif;
+  }
 `;
 
 const Layout: React.SFC = ({ children }) => (
