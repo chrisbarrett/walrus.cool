@@ -67,10 +67,14 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
     <Layout>
       <article>
         <Styles>
-          <h1>{meta.title}</h1>
-          {date && <PostDate value={date} />}
-          {/* eslint-disable-next-line react/no-danger */}
-          <div dangerouslySetInnerHTML={{ __html: updatedHtml }} />
+          <HeaderSection>
+            <h1>{meta.title}</h1>
+            {date && <PostDate value={date} />}
+          </HeaderSection>
+          <BodySection>
+            {/* eslint-disable-next-line react/no-danger */}
+            <div dangerouslySetInnerHTML={{ __html: updatedHtml }} />
+          </BodySection>
         </Styles>
       </article>
     </Layout>
@@ -79,35 +83,11 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
 
 export default Template;
 
-const Styles = styled.div`
-  & dl {
-    line-height: 2em;
-  }
+const HeaderSection = styled.div``;
 
-  & dt.rtl {
-    float: right;
-    clear: right;
-  }
+const BodySection = styled.section``;
 
-  & dd {
-    margin-left: 0;
-    color: var(--fg-dim-color);
-    font-style: italic;
-  }
-
-  & dd li {
-    max-width: 300px;
-  }
-
-  & .callout {
-    font-size: 32pt;
-    position: relative;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-    border-top: 1px var(--border-color) solid;
-    border-bottom: 1px var(--border-color) solid;
-  }
-`;
+const Styles = styled.div``;
 
 export const pageQuery = graphql`
   query BlogPostQuery($id: String!) {
