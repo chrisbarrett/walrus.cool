@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light dark;
   --border-color: #eee;
   --fg-dim-color: gray;
   --title-fg-color: gray;
