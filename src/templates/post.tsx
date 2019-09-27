@@ -37,11 +37,10 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
 
   const $ = cheerio.load(emoji.emojify(html));
 
-  // If there are arabic chars in the first few chars of a list item, make it
-  // RTL.
-  $('dt, li, dd').each((_i, element) => {
+  // Apply lang tags and text-direction for Persian text.
+  $('dt, li, dd, p').each((_i, element) => {
     const definition = $(element);
-    const sample = definition.text().substring(0, 5);
+    const sample = definition.text().substring(0, 3);
 
     if (matchArabicOrPersian.test(sample)) {
       $(definition)
