@@ -46,6 +46,7 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
     if (matchArabicOrPersian.test(sample)) {
       $(definition)
         .attr('dir', 'rtl')
+        .attr('lang', 'fa')
         .addClass('rtl');
     }
   });
