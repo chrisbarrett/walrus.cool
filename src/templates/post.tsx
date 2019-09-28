@@ -56,9 +56,16 @@ const postProcessHtml = (html: string): string => {
           .filter((_, element) => isArabicOrPersian($(element)))
           .each((_, element) => $(element).wrap('<span lang="fa" />'));
       }
-    } else {
-      element.attr('dir', 'ltr');
     }
+  });
+
+  // Reset language to English for certain nested block elements.
+
+  $('dl, ul').each((_, hit) => {
+    $(hit)
+      .addClass('ltr')
+      .attr('lang', 'en')
+      .attr('dir', 'ltr');
   });
 
   // Shift heading tags in generated HTML so we can use h1 for the page title.
