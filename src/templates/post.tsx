@@ -93,14 +93,34 @@ export default Template;
 const HeaderSection = styled.div``;
 
 const BodySection = styled.section`
-  dt {
-    color: var(--default-text-color);
-    font-style: normal;
-  }
-
   dd:lang(en) {
     font-style: oblique;
     color: var(--fg-dim-color);
+  }
+
+  dl {
+    display: grid;
+  }
+
+  dl.ltr {
+    padding-left: 1em;
+  }
+
+  dl.rtl {
+    padding-right: 1em;
+  }
+
+  dt {
+    color: var(--default-text-color);
+    font-style: normal;
+    grid-column-start: 1;
+    margin-top: 1em;
+  }
+
+  dd {
+    grid-column-start: 2;
+    margin: 0px;
+    margin-top: 1em;
   }
 `;
 
