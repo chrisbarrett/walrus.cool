@@ -41,15 +41,23 @@ const postProcessHtml = (html: string): string => {
   const $ = cheerio.load(emoji.emojify(html));
 
   // Apply lang tags and text-direction for Persian text.
+
   $('dt, li, dd, p').each((_i, hit) => {
     const element = $(hit);
 
     if (isArabicOrPersian(element)) {
       element.addClass('rtl').attr('dir', 'rtl');
-      element
-        .contents()
-        .filter((_, element) => isArabicOrPersian($(element)))
-        .each((_, element) => $(element).wrap('<span lang="fa" />'));
+
+      if (hit.name === 'p') {
+        element.attr('lang', 'fa');
+      } else {
+        element
+          .contents()
+          .filter((_, element) => isArabicOrPersian($(element)))
+          .each((_, element) => $(element).wrap('<span lang="fa" />'));
+      }
+    } else {
+      element.attr('dir', 'ltr');
     }
   });
 
