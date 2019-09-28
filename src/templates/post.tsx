@@ -32,19 +32,24 @@ interface PageTemplateProps {
 
 const matchArabicOrPersian = /[آ-ی]/;
 
+const isArabicOrPersian = (element: Cheerio): boolean => {
+  const sample = element.text().substring(0, 3);
+  return matchArabicOrPersian.test(sample);
+};
+
 const postProcessHtml = (html: string): string => {
   const $ = cheerio.load(emoji.emojify(html));
 
   // Apply lang tags and text-direction for Persian text.
-  $('dt, li, dd, p').each((_i, element) => {
-    const definition = $(element);
-    const sample = definition.text().substring(0, 3);
+  $('dt, li, dd, p').each((_i, hit) => {
+    const element = $(hit);
 
-    if (matchArabicOrPersian.test(sample)) {
-      $(definition)
-        .attr('dir', 'rtl')
-        .attr('lang', 'fa')
-        .addClass('rtl');
+    if (isArabicOrPersian(element)) {
+      element.addClass('rtl').attr('dir', 'rtl');
+      element
+        .contents()
+        .filter((_, element) => isArabicOrPersian($(element)))
+        .each((_, element) => $(element).wrap('<span lang="fa" />'));
     }
   });
 
