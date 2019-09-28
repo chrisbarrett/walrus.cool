@@ -125,7 +125,6 @@ CLOSED: [2019-09-27 Fri 21:19]
 - من از «کشور» هستم.  :: I'm from <COUNTRY>
 
 - من از...
-
   - نیوزیلند :: New Zealand
   - استرالیا :: Australia
   - ایران :: Iran
