@@ -40,32 +40,17 @@ const isArabicOrPersian = (element: Cheerio): boolean => {
 const postProcessHtml = (html: string): string => {
   const $ = cheerio.load(emoji.emojify(html));
 
-  // Apply lang tags and text-direction for Persian text.
+  // Guess the text direction and language of block elements.
 
-  $('dt, li, dd, p').each((_i, hit) => {
-    const element = $(hit);
+  $('p, ol, ul, dl, li, dt, dd').each((_, it) => {
+    const arabicLike = isArabicOrPersian($(it));
+    const lang = arabicLike ? 'fa' : 'en';
+    const dir = arabicLike ? 'rtl' : 'ltr';
 
-    if (isArabicOrPersian(element)) {
-      element.addClass('rtl').attr('dir', 'rtl');
-
-      if (hit.name === 'p') {
-        element.attr('lang', 'fa');
-      } else {
-        element
-          .contents()
-          .filter((_, element) => isArabicOrPersian($(element)))
-          .each((_, element) => $(element).wrap('<span lang="fa" />'));
-      }
-    }
-  });
-
-  // Reset language to English for certain nested block elements.
-
-  $('dl, ul').each((_, hit) => {
-    $(hit)
-      .addClass('ltr')
-      .attr('lang', 'en')
-      .attr('dir', 'ltr');
+    $(it)
+      .addClass(dir)
+      .attr('dir', dir)
+      .attr('lang', lang);
   });
 
   // Shift heading tags in generated HTML so we can use h1 for the page title.
@@ -107,7 +92,15 @@ export default Template;
 
 const HeaderSection = styled.div``;
 
-const BodySection = styled.section``;
+const BodySection = styled.section`
+  dt {
+    color: var(--default-text-color);
+  }
+
+  *:lang(fa) > dd:lang(en) {
+    color: var(--fg-dim-color);
+  }
+`;
 
 const Styles = styled.div``;
 
