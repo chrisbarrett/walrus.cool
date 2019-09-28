@@ -97,6 +97,10 @@ const BodySection = styled.section`
     color: var(--default-text-color);
   }
 
+  dd:lang(en) {
+    font-style: oblique;
+  }
+
   *:lang(fa) > dd:lang(en) {
     color: var(--fg-dim-color);
   }
