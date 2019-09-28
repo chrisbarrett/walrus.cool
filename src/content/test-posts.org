@@ -1,4 +1,4 @@
-#+TITLE: Test Post
+#+TITLE: Test Posts
 #+ORGA_PUBLISH_KEYWORD: PUBLISHED
 #+TODO: DRAFT | PUBLISHED
 * DRAFT Test Post
@@ -59,3 +59,15 @@ iaculis at erat. Elementum curabitur vitae nunc sed velit dignissim sodales ut.
   - چطوری؟ :: how are you?
   - سلام، چطوری! :: hi, how are you?
 - بد نیستم :: I'm not bad
+* DRAFT List Tests
+- I
+- I
+
+- I :: D
+- I :: D
+
+- ا
+- ا
+
+- ا :: D
+- ا :: D
