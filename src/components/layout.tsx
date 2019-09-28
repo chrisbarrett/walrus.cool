@@ -70,6 +70,18 @@ const StyledLayout = styled.div`
     }
   }
 
+  /* Set padding for lists. */
+
+  ul,
+  dl {
+    margin: 0em;
+  }
+
+  li,
+  dt {
+    margin-top: 0.5em;
+  }
+
   /* Reset bullet style. */
 
   ul {
@@ -101,7 +113,7 @@ const StyledLayout = styled.div`
     font-size: 0.45rem;
     display: inline-block;
     width: 2em;
-    margin-left: -1em;
+    margin-left: 0.45em;
     margin-right: 0em;
   }
 
