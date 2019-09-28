@@ -8,7 +8,7 @@ const StyledLayout = styled.div`
   /* Constrain content. */
 
   margin: 0 auto;
-  max-width: 720px;
+  max-width: var(--content-width);
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
 
@@ -107,22 +107,29 @@ const StyledLayout = styled.div`
 
   /* Add bullet for definitions. */
 
+  dl {
+    position: relative;
+  }
+
+  dt {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
   dt:before {
     content: '► ';
+    position: absolute;
     color: var(--fg-dim-color);
-    font-size: 0.45rem;
-    display: inline-block;
-    width: 2em;
-    margin-left: 0.45em;
-    margin-right: 0em;
+    font-size: 0.47rem;
+    left: 0.5em;
+    top: 0.8em;
   }
 
   dt.rtl:before {
     content: '◄ ';
-    position: relative;
-    top: -0.35em;
-    margin-left: 0em;
-    margin-right: 1em;
+    position: absolute;
+    left: calc(100% - 1.9em);
+    top: 1em;
   }
 
   /* Work around poor browser support for text direction pseudo-selector. */

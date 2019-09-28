@@ -9,6 +9,8 @@
   --border-color: var(--fg-dim-color);
 
   --title-fg-color: gray;
+
+  --content-width: 720px;
 }
 
 @media (prefers-color-scheme: dark) {

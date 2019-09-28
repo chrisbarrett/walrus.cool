@@ -110,7 +110,6 @@ const BodySection = styled.section`
   dl:lang(en) > dd:lang(en) {
     font-style: oblique;
     color: var(--fg-dim-color);
-    margin-left: 1.2em;
   }
 
   dt {
