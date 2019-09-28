@@ -5,9 +5,8 @@
   --default-bg-color: #fdf6e3;
   --default-text-color: black;
 
-  --border-color: #eee;
-
   --fg-dim-color: #8e8e93;
+  --border-color: var(--fg-dim-color);
 
   --title-fg-color: gray;
 }
