@@ -107,6 +107,7 @@ const BodySection = styled.section`
 
   dl {
     display: grid;
+    row-gap: 1.5em;
   }
 
   dl.ltr {
@@ -121,13 +122,11 @@ const BodySection = styled.section`
     color: var(--default-text-color);
     font-style: normal;
     grid-column-start: 1;
-    margin-top: 1em;
   }
 
   dd {
     grid-column-start: 2;
     margin: 0px;
-    margin-top: 1em;
   }
 `;
 
