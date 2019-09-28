@@ -1,0 +1,61 @@
+#+TITLE: Test Post
+#+ORGA_PUBLISH_KEYWORD: PUBLISHED
+#+TODO: DRAFT | PUBLISHED
+* DRAFT Test Post
+** Heading
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit
+amet. Tellus molestie nunc non blandit massa enim nec dui. Commodo quis
+imperdiet massa tincidunt nunc pulvinar sapien et. Senectus et netus et
+malesuada fames ac turpis. Id volutpat lacus laoreet non curabitur gravida arcu
+ac tortor.
+
+Est ante in nibh mauris cursus mattis molestie a. Ac feugiat sed lectus
+vestibulum mattis ullamcorper. Integer vitae justo eget magna fermentum iaculis
+eu non. Suspendisse interdum consectetur libero id faucibus. Nisi scelerisque eu
+ultrices vitae auctor eu. Ullamcorper velit sed ullamcorper morbi tincidunt
+ornare massa eget egestas. Tortor consequat id porta nibh venenatis cras sed
+felis. Interdum consectetur libero id faucibus nisl tincidunt. Egestas diam in
+arcu cursus euismod quis viverra. Laoreet non curabitur gravida arcu ac tortor
+dignissim. Ut enim blandit volutpat maecenas volutpat. Lobortis mattis aliquam
+faucibus purus in massa. Aliquam ut porttitor leo a diam sollicitudin. Orci eu
+lobortis elementum nibh tellus molestie nunc.
+
+- Sit amet tellus cras adipiscing enim.
+- Et egestas quis ipsum suspendisse ultrices gravida dictum fusce.
+- Turpis cursus in hac habitasse.
+
+Viverra justo nec ultrices dui sapien. Scelerisque in dictum non consectetur.
+Sit amet luctus venenatis lectus magna fringilla. Facilisi nullam vehicula ipsum
+a arcu cursus vitae. Amet tellus cras adipiscing enim. At tempor commodo
+ullamcorper a lacus vestibulum sed arcu non. Mauris cursus mattis molestie a
+iaculis at erat. Elementum curabitur vitae nunc sed velit dignissim sodales ut.
+** Persian
+لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+
+- در این صورت می توان امید داشت که تمام
+- و دشواری موجود در ارائه راهکارها
+- و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی
+
+و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+** LTR definitions
+- name :: chris
+- age :: 30
+- description :: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet. Tellus molestie nunc non blandit massa enim nec dui. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Senectus et netus et malesuada fames ac turpis. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor.
+** Mixed LTR/RTL lists
+- تتتت
+- foo
+  - تتتتت
+  - ننننن
+  - hhhh
+    1. سسسسس
+    2. سسسسس
+** RTL->LTR definitions
+- سلام :: hello
+- چطوری؟ :: how are you?
+- سلام، چطوری! :: hi, how are you?
+
+- سلام :: hello
+  - چطوری؟ :: how are you?
+  - سلام، چطوری! :: hi, how are you?
+- بد نیستم :: I'm not bad
