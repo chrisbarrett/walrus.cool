@@ -5,10 +5,14 @@ import { Helmet } from 'react-helmet';
 import Header from './header';
 
 const StyledLayout = styled.div`
+  /* Constrain content. */
+
   margin: 0 auto;
   max-width: 720px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
+
+  /* Apply basic typeface settings. */
 
   font-family: 'Palatino', 'Times New Roman', serif;
   line-height: 1.5;
@@ -29,14 +33,18 @@ const StyledLayout = styled.div`
   & a {
     color: #0070c9;
   }
+
   & a:link,
   & a:visited,
   a:active {
     text-decoration: none;
   }
+
   & a:hover {
     text-decoration: underline;
   }
+
+  /* Dynamically resize heading elements for viewport. */
 
   @media only screen and (max-width: var(--viewport-width-large)) {
     & h1 {
@@ -59,6 +67,8 @@ const StyledLayout = styled.div`
       font-size: 24px;
     }
   }
+
+  /* Style RTL-text. */
 
   .rtl {
     text-align: right;
