@@ -44,15 +44,15 @@ CLOSED: [2019-09-22 Sun 22:31]
 - بد نیستم :: I'm not bad
 - من :: me/I
   - 1st person subject or object pronoun
-** Conversation 1
+** Conversation
 - لیلا: سلام مت، چطوری؟
 - مت: خوبم مرسی. چطوری؟
 - لیلا: خوبم مرسی.
-** Conversation 2
+** Conversation
 - لیلا: سلام مت. چطوری؟
 - مت: بد نیستم. چطوری؟
 - لیلا: من؟ خوبم مرسی.
-** Conversation 3
+** Conversation
 - لیلا: سلام مت. چطوری؟
 - مت: عالی!
 ** Notes
@@ -80,7 +80,7 @@ CLOSED: [2019-09-23 Mon 21:32]
 - طو... :: until...
   - طو بعد :: until later
   - طو فردا :: until tomorrow
-*** Saying your name
+*** Saying Your Name
 - اسم من «اسم» هست :: my name is «NAME»
   - اسم من کرس هست :: my name is Chris
 - خوشوغتم :: pleased to meet you
@@ -95,7 +95,7 @@ CLOSED: [2019-09-23 Mon 21:32]
 * PUBLISHED 30 Days of Persian: Day Three
 CLOSED: [2019-09-27 Fri 21:19]
 - [[https://www.chaiandconversation.com/podcast/how-introduce-where-you-are-and-introducing-different-forms-you][How to Introduce Where You are From, and Introducing the Different forms of You]]
-** Asking about names
+** Asking About Names
 - اسم من «اسم» هست :: my name is <NAME>
   - اسم من کرس هست :: my name is Chris
 - و [تو/شما]؟ :: and you?
@@ -115,7 +115,7 @@ CLOSED: [2019-09-27 Fri 21:19]
 - لیلا: اسم شما چیه؟
 - مت: اسم من مت هست. اسم شما چیه؟
 - لیلا: اسم من لیلا هست.
-** Asking where you're from
+** Asking Where You're From
 - تو اهل کجا هستی؟ :: where are you from? (informal)
 - شما اهل کجا هستین؟ :: where are you from? (formal)
 - کُجا؟ :: where?
