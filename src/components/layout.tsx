@@ -46,24 +46,24 @@ const StyledLayout = styled.div`
 
   /* Dynamically resize heading elements for viewport. */
 
-  @media only screen and (max-width: var(--content-width-large)) {
-    & h1 {
+  @media only screen and (max-width: 1068px) {
+    h1 {
       font-size: 34px;
       text-align: center;
     }
 
-    & h2 {
+    h2 {
       font-size: 28px;
     }
   }
 
-  @media only screen and (max-width: var(--content-width-small)) {
-    & h1 {
+  @media only screen and (max-width: 735px) {
+    h1 {
       font-size: 28px;
       text-align: center;
     }
 
-    & h2 {
+    h2 {
       font-size: 24px;
     }
   }

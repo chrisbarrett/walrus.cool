@@ -10,9 +10,6 @@
   --fg-dim-color: #8e8e93;
 
   --title-fg-color: gray;
-
-  --content-width-large: 1068px;
-  --content-width-small: 735px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,16 +23,4 @@
 :root {
   color: var(--default-text-color);
   background-color: var(--default-bg-color);
-}
-
-@media only screen and (max-width: var(--content-width-large)) {
-  :root {
-    --content-width: var(--content-width-large);
-  }
-}
-
-@media only screen and (max-width: var(--content-width-small)) {
-  :root {
-    --content-width: var(--content-width-small);
-  }
 }
