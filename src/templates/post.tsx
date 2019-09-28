@@ -103,30 +103,21 @@ const BodySection = styled.section`
   dd:lang(en) {
     font-style: oblique;
     color: var(--fg-dim-color);
-  }
-
-  dl {
-    display: grid;
-    row-gap: 1.5em;
-  }
-
-  dl.ltr {
-    padding-left: 1em;
-  }
-
-  dl.rtl {
-    padding-right: 1em;
+    text-align: right;
   }
 
   dt {
     color: var(--default-text-color);
     font-style: normal;
-    grid-column-start: 1;
   }
 
-  dd {
-    grid-column-start: 2;
-    margin: 0px;
+  li > dl,
+  li > ul,
+  li > ol,
+  dd > dl,
+  dd > ul,
+  dd > ol {
+    margin-right: 1em;
   }
 `;
 
