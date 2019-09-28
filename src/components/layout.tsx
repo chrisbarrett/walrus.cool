@@ -38,19 +38,6 @@ const StyledLayout = styled.div`
     text-decoration: underline;
   }
 
-  .rtl {
-    text-align: right;
-  }
-
-  *:lang(fa) {
-    font-size: 1.2em;
-  }
-
-  p:lang(fa) {
-    font-family: 'SF Pro AR', 'SF Pro Gulf', 'Palatino', 'Times New Roman',
-      serif;
-  }
-
   @media only screen and (max-width: var(--viewport-width-large)) {
     & h1 {
       font-size: 34px;
@@ -71,6 +58,19 @@ const StyledLayout = styled.div`
     & h2 {
       font-size: 24px;
     }
+  }
+
+  .rtl {
+    text-align: right;
+  }
+
+  *:lang(fa) {
+    font-size: 1.2em;
+  }
+
+  p:lang(fa) {
+    font-family: 'SF Pro AR', 'SF Pro Gulf', 'Palatino', 'Times New Roman',
+      serif;
   }
 `;
 
