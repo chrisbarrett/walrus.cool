@@ -5,6 +5,7 @@ import emoji from 'node-emoji';
 import cheerio from 'cheerio';
 import Layout from '../components/layout';
 import PostDate from '../components/post-date';
+import SEO from '../components/seo';
 
 interface PageTemplateProps {
   data: {
@@ -65,6 +66,7 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
 
   return (
     <Layout>
+      <SEO title={meta.title} />
       <article>
         <Styles>
           <HeaderSection>

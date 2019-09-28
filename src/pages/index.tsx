@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby';
 import styled from '@emotion/styled';
 import Layout from '../components/layout';
 import PostDate from '../components/post-date';
+import SEO from '../components/seo';
 
 interface OrgPost {
   id: string;
@@ -41,7 +42,12 @@ const Index: React.SFC<QueryProps> = ({ data }) => {
   const posts = data.allOrgContent.edges.map(({ node }) => (
     <PostItem key={node.id} {...node} />
   ));
-  return <Layout>{posts}</Layout>;
+  return (
+    <Layout>
+      <SEO title="home" />
+      {posts}
+    </Layout>
+  );
 };
 
 export default Index;
