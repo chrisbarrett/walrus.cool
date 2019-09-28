@@ -13,6 +13,19 @@ const StyledLayout = styled.div`
   font-family: 'Palatino', 'Times New Roman', serif;
   line-height: 1.5;
 
+  & h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
+    font-family: 'SF Pro Display', 'Helvetica Neue', 'Helvetica', 'Arial',
+      sans-serif;
+  }
+
+  /* Style links to look better in both light and dark modes. */
+
   & a {
     color: #0070c9;
   }
@@ -23,17 +36,6 @@ const StyledLayout = styled.div`
   }
   & a:hover {
     text-decoration: underline;
-  }
-
-  & h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: 500;
-    font-family: 'SF Pro Display', 'Helvetica Neue', 'Helvetica', 'Arial',
-      sans-serif;
   }
 
   .rtl {
