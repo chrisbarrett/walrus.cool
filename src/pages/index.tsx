@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Link, graphql } from 'gatsby';
-import styled from '@emotion/styled';
 import Layout from '../components/layout';
 import PostDate from '../components/post-date';
 import SEO from '../components/seo';
@@ -24,7 +23,7 @@ interface QueryProps {
   };
 }
 
-const PostItem = styled((post: OrgPost) => {
+const PostItem: React.SFC<OrgPost> = post => {
   const date = post.meta.date && new Date(post.meta.date);
   return (
     <>
@@ -34,9 +33,7 @@ const PostItem = styled((post: OrgPost) => {
       {date && <PostDate value={date} />}
     </>
   );
-})`
-  margin-bottom: 4em;
-`;
+};
 
 const Index: React.SFC<QueryProps> = ({ data }) => {
   const posts = data.allOrgContent.edges.map(({ node }) => (
