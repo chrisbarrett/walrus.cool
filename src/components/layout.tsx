@@ -93,6 +93,26 @@ const StyledLayout = styled.div`
     margin-right: -1em;
   }
 
+  /* Add bullet for definitions. */
+
+  dt:before {
+    content: '► ';
+    color: var(--fg-dim-color);
+    font-size: 0.45rem;
+    display: inline-block;
+    width: 2em;
+    margin-left: -1em;
+    margin-right: 0em;
+  }
+
+  dt.rtl:before {
+    content: '◄ ';
+    position: relative;
+    top: -0.35em;
+    margin-left: 0em;
+    margin-right: -1em;
+  }
+
   /* Work around poor browser support for text direction pseudo-selector. */
 
   .ltr {
