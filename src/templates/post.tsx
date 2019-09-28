@@ -95,13 +95,11 @@ const HeaderSection = styled.div``;
 const BodySection = styled.section`
   dt {
     color: var(--default-text-color);
+    font-style: normal;
   }
 
   dd:lang(en) {
     font-style: oblique;
-  }
-
-  *:lang(fa) > dd:lang(en) {
     color: var(--fg-dim-color);
   }
 `;
