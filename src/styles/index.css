@@ -1,11 +1,14 @@
 :root {
   color-scheme: light dark;
+  --blue: #007aff;
 
   --default-bg-color: #fdf6e3;
   --default-text-color: black;
 
   --border-color: #eee;
-  --fg-dim-color: gray;
+
+  --fg-dim-color: #8e8e93;
+
   --title-fg-color: gray;
 
   --content-width-large: 1068px;
@@ -16,6 +19,7 @@
   :root {
     --default-bg-color: black;
     --default-text-color: white;
+    --blue: #0a84ff;
   }
 }
 

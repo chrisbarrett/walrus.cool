@@ -31,7 +31,7 @@ const StyledLayout = styled.div`
   /* Style links to look better in both light and dark modes. */
 
   & a {
-    color: #0070c9;
+    color: var(--blue);
   }
 
   & a:link,
