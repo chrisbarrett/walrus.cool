@@ -147,5 +147,60 @@ CLOSED: [2019-09-27 Fri 21:19]
 *** Conversation
 - لیلا: اسم من لیلا هست و من از امریکا هستم.
 - مت: اسم من مت هست و من هم از امریکا هستم.
-* DRAFT 30 Days of Persian: Day Four
+* PUBLISHED 30 Days of Persian: Day Four
+CLOSED: [2019-09-29 Sun 09:25]
 - [[https://www.chaiandconversation.com/podcast/how-say-where-you-live-and-answer-simple-questions][How to Say Where You Live, and Answer Simple Questions]]
+** Review
+- سلام :: hello
+- صبح بخیر :: good morning
+- روز بخیر :: good day
+- عصر بخیر :: good afternoon
+- حذاخافط :: goodbye
+- چطوری؟ :: how are you?
+  - خیلی خوبم مرسی :: I'm very well thanks
+  - من هم خیلی خوبم :: I'm very well too
+  - خوب نیستم :: I'm not good
+  - عالی :: I'm feeling excellent
+  - بعذ نیتم :: I'm not bad
+- اسم من ... هست :: My name is...
+  - اسم من کرس هست :: My name is Chris
+  - اسم تو چیه؟ :: What's your name? (inf.)
+  - اسم شما چیه؟ ::  What's your name? (forml.)
+- من از ... هستم :: I'm from...
+  - من از نیوزیلند هستم :: I'm from New Zealand
+  - تو اهل کجا هستی؟ :: Where are you from? (inf.)
+  - شما اهل کجا هستین؟ :: Where are you from? (forml.)
+** Yes & No
+- بله :: yes
+- آره :: yeah (inf.)
+- نه :: no
+
+** Where You're From
+- لیلا: تو از امریکا هستی؟
+- مت: بله. از امریکا هستم.
+
+- The negative of /هستم/ is /نیستم/.
+- لیلا: تو از فرانسه هستی؟
+- مت: نه. از امریکا نیستم.
+
+- لیلا: شما از امریکا هستین؟
+- مت: نه. از میوزیلند هستم.
+
+- You can use this structure for cities too:
+  - از اوکلند هستم.
+
+*** Asking Where You Live
+- شما کجا زندگی می کنین؟ :: Where do you live? (forml.)
+- تو کجا زندکی می کنی؟ :: Where do you live? (inf.)
+  - کُجا؟ :: where?
+  - زِندگی :: life
+  - می کُنم :: I do
+- من در اوکلند زندگی می کنم. :: I live in Auckland
+  - در :: in (preposition)
+
+- من از نیوزیلند هستم ولی در آستین زندگی می کنم.
+  - ولی :: but
+- از امریکا هستم ولی در پاریس زندگی می کنم.
+- از اسپانیا هستم ولی هلا در تگزاس زندگی می کنم.
+  - هلا :: now
+  - ولی هلا... :: but now...
