@@ -90,7 +90,14 @@ const Template: React.SFC<PageTemplateProps> = ({ data }) => {
 
 export default Template;
 
-const HeaderSection = styled.div``;
+const HeaderSection = styled.div`
+  margin-bottom: 3em;
+  border-bottom: 1px solid var(--border-color);
+
+  ${PostDate} {
+    text-align: right;
+  }
+`;
 
 const BodySection = styled.section`
   dd:lang(en) {

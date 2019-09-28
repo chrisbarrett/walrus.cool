@@ -14,15 +14,12 @@ export const PostDate: React.SFC<Props> = ({ className, value }) => {
   const humanFormatted = dateFormatter.format(value);
   return (
     <div className={className}>
-      <small>
-        <time dateTime={value.toISOString()}>{humanFormatted}</time>
-      </small>
+      <time dateTime={value.toISOString()}>{humanFormatted}</time>
     </div>
   );
 };
 
 export default styled(PostDate)`
-  text-align: right;
   color: var(--fg-dim-color);
   font-style: oblique;
 `;
