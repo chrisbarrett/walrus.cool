@@ -80,6 +80,7 @@ const StyledLayout = styled.div`
 
   ul > li:before {
     content: '• ';
+    color: var(--fg-dim-color);
     font-size: 0.8rem;
     display: inline-block;
     width: 1em;
