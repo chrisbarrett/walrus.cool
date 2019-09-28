@@ -76,7 +76,7 @@ const StyledLayout = styled.div`
     padding-right: 1em;
   }
 
-  ul li:before {
+  ul > li:before {
     content: '• ';
     font-size: 0.8rem;
     display: inline-block;
@@ -85,7 +85,7 @@ const StyledLayout = styled.div`
     margin-right: 0em;
   }
 
-  ul li.rtl:before {
+  ul > li.rtl:before {
     margin-left: 0em;
     margin-right: -1em;
   }
