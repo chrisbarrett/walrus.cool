@@ -104,9 +104,6 @@ const StyledLayout = styled.div`
 
   *:lang(fa) {
     font-size: 1.2rem;
-  }
-
-  p:lang(fa) {
     font-family: 'SF Pro AR', 'SF Pro Gulf', 'Palatino', 'Times New Roman',
       serif;
   }
