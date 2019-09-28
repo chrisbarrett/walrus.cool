@@ -1,17 +1,37 @@
 :root {
   color-scheme: light dark;
+
+  --default-bg-color: #fdf6e3;
+  --default-text-color: black;
+
   --border-color: #eee;
   --fg-dim-color: gray;
   --title-fg-color: gray;
 
   --content-width-large: 1068px;
   --content-width-small: 735px;
+}
 
-  @media only screen and (max-width: var(--content-width-large)) {
+@media (prefers-color-scheme: dark) {
+  :root {
+    --default-bg-color: black;
+    --default-text-color: white;
+  }
+}
+
+:root {
+  color: var(--default-text-color);
+  background-color: var(--default-bg-color);
+}
+
+@media only screen and (max-width: var(--content-width-large)) {
+  :root {
     --content-width: var(--content-width-large);
   }
+}
 
-  @media only screen and (max-width: var(--content-width-small)) {
+@media only screen and (max-width: var(--content-width-small)) {
+  :root {
     --content-width: var(--content-width-small);
   }
 }
