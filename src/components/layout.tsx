@@ -107,6 +107,11 @@ const StyledLayout = styled.div`
     font-family: 'SF Pro AR', 'SF Pro Gulf', 'Palatino', 'Times New Roman',
       serif;
   }
+
+  *:lang(fa) *:lang(en) {
+    font-size: 1rem;
+    font-family: 'Palatino', 'Times New Roman', serif;
+  }
 `;
 
 const Layout: React.SFC = ({ children }) => (
