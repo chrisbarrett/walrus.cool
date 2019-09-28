@@ -90,11 +90,17 @@ const StyledLayout = styled.div`
     margin-right: -1em;
   }
 
-  /* Style RTL-text. */
+  /* Work around poor browser support for text direction pseudo-selector. */
+
+  .ltr {
+    text-align: left;
+  }
 
   .rtl {
     text-align: right;
   }
+
+  /* Style RTL-text. */
 
   *:lang(fa) {
     font-size: 1.2rem;
