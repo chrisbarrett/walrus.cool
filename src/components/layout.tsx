@@ -68,6 +68,28 @@ const StyledLayout = styled.div`
     }
   }
 
+  /* Reset bullet style. */
+
+  ul {
+    list-style: none;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  ul li:before {
+    content: '• ';
+    font-size: 0.8rem;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 0em;
+  }
+
+  ul li.rtl:before {
+    margin-left: 0em;
+    margin-right: -1em;
+  }
+
   /* Style RTL-text. */
 
   .rtl {
