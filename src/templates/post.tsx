@@ -100,15 +100,27 @@ const HeaderSection = styled.div`
 `;
 
 const BodySection = styled.section`
+  ul,
+  dl {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+
   dd:lang(en) {
     font-style: oblique;
     color: var(--fg-dim-color);
     text-align: right;
+    margin-right: 1.2em;
   }
 
   dt {
     color: var(--default-text-color);
     font-style: normal;
+  }
+
+  li:lang(fa),
+  dt:lang(fa) {
+    margin-top: 0.5em;
   }
 
   li > dl,

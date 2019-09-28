@@ -110,7 +110,7 @@ const StyledLayout = styled.div`
     position: relative;
     top: -0.35em;
     margin-left: 0em;
-    margin-right: -1em;
+    margin-right: 1em;
   }
 
   /* Work around poor browser support for text direction pseudo-selector. */
