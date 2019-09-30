@@ -174,7 +174,6 @@ CLOSED: [2019-09-29 Sun 09:25]
 - بله :: yes
 - آره :: yeah (inf.)
 - نه :: no
-
 ** Where You're From
 - لیلا: تو از امریکا هستی؟
 - مت: بله. از امریکا هستم.
@@ -204,3 +203,49 @@ CLOSED: [2019-09-29 Sun 09:25]
 - از اسپانیا هستم ولی هلا در تگزاس زندگی می کنم.
   - هلا :: now
   - ولی هلا... :: but now...
+* PUBLISHED 30 Days of Persian: Day Five
+CLOSED: [2019-09-30 Mon 13:42]
+- [[https://www.chaiandconversation.com/podcast/how-talk-about-your-family-and-introduce-their-names][How to Talk About Your Family, and Introduce Their Names]]
+** Members of the Family
+- برادر :: brother
+- خواهر :: sister
+- مادر :: mother
+- پدر :: father
+- شوهر :: husband
+- زن :: wife/woman
+- پسر :: son/boy
+- دختر :: daughter/girl
+** Possessive Pronouns
+- Ezafe (اضافه) construction :: ِ﹍ noun suffix indicating possession
+  - see: [[https://en.wikipedia.org/wiki/Ez%25C4%2581fe][Ezafe]] (Wikipedia)
+  - similar in concept to idafa (اضافة) in Arabic, from which the term is borrowed
+
+- مادر من :: my mother
+  - NB. this is /مادرِ من/ , i.e. with ezafe.
+- پدر من :: my father
+- خواهر من :: my sister
+- پسر من :: my son
+- دختر من :: my daughter
+- برادر من و خاهر من :: my brother and my sister
+** Introducing a Family Member
+- Spoken and written Persian differ in how you express possession
+- informal
+  - این خواهر من هست :: this is my sister (written)
+  - این خواهر منه :: this is my sister (spoken)
+- formal
+  - ایشوم پدر من هستند :: this is my father (written)
+  - ایشون پدر منند :: this is my father (spoken)
+- examples
+  - این زن منه :: this is my wife
+  - این شوهر منه :: this is my husband
+  - این برادر منه :: this is my brother
+  - ایشون پدر منند :: this is my father
+  - این دختر منه :: this is my daughter
+  - این خواهر منه :: this is my sister
+- saying someone's name uses these constructions
+  - informal
+    - اسمش لودنه :: her name is Laudan (spoken)
+    - اسمش لودن هست :: her name is Laudan (written)
+  - formal
+    - اسمشون مریامه :: her name is Mary (spoken)
+    - اسمشون مریام هستند :: her name is Mary (written)
