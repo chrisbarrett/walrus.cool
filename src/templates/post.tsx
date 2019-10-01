@@ -30,7 +30,7 @@ interface PageTemplateProps {
   };
 }
 
-const matchArabicOrPersian = /[آ-ی]/;
+const matchArabicOrPersian = /[آ-ی۰-۹]/;
 
 const isArabicOrPersian = (element: Cheerio): boolean => {
   const sample = element.text().substring(0, 3);
