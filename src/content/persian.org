@@ -250,3 +250,61 @@ CLOSED: [2019-09-30 Mon 13:42]
   - formal
     - اسمشون مریامه :: her name is Mary (spoken)
     - اسمشون مریام هستند :: her name is Mary (written)
+* PUBLISHED 30 Days of Persian: Day Six
+CLOSED: [2019-10-01 Tue 22:52]
+- [[https://www.chaiandconversation.com/podcast/how-talk-more-about-your-family-and-how-count-ten][How to Talk More About Your Family, and How to Count to Ten]]
+** Revision
+- برادر :: brother
+- خواهر :: sister
+- مادر :: mother
+- پدر :: father
+- زن :: wife
+- شوهر :: husband
+
+** Possessives
+- To form a possessive, use a noun with ezafe followed by a noun or pronoun.
+  - شوهر من :: my husband
+  - خواهر تو :: your sister (inf.)
+  - زن تو :: your wife (inf.)
+  - شوهر شما :: your husband (forml.)
+  - دختر شما :: your daughter (forml.)
+** Introducing Family Members to Others
+- ممان :: mum (familiar)
+- بابا :: dad (familiar)
+
+- When a noun ends with a vowel, the ﹍ِ of ezafe becomes /یِ/.
+  - بابای تو :: your dad (inf.)
+
+- To express /having/ a relative, you use the verb /دار/
+- NB. the noun is /not/ in ezafe; it is the direct object of the verb
+  - من ی خواهر دارم :: I have a sister
+    - دارم :: I have
+    - یِ :: indefinite article (shortened form of /یک/ )
+  - من یک خواهر دارم :: I have a /one/ (i.e. /a single/) sister
+** Numbers 1-10
+- ۱ :: یک
+- ۲ :: دو
+- ۳ :: سه
+- ۴ :: چهار
+- ۵ :: پنج
+- ۶ :: شیش
+- ۷ :: هفت
+- ۸ :: هشت
+- ۹ :: نه
+- ۱۰ :: ده
+** Numbers
+- Nouns do not take a plural form when qualified by a number.
+- i.e. in the examples below, /برادر/ is used for singular and plural senses
+  - من ی برادر دارم :: I have a brother
+  - من دو برادر دارم :: I have two brothers
+  - من ی خواهر دارم. اسمش سارا هست.  :: I have a sister. Her name is Sarah.
+  - من دو خواهر دارم. اسمون سارا و مریم هست. :: I have two sisters. Their names are Sarah and Maryam.
+** Phone Call
+- فرزمه: الو!
+- لیلا: سلام!
+- فرزمه: سلام.
+- لیلا: اسم شما چیه؟
+- من فرزمه هستم.
+- لیلا: شما کی هستید؟
+- فرزمه: من مادر تو هستم.
+- لیلا: سلام مامن! بله٬ شما مادر من هستید و من دختر شما هستم.
