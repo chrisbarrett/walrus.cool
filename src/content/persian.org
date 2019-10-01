@@ -2,6 +2,7 @@
 #+ORGA_PUBLISH_KEYWORD: PUBLISHED
 #+TODO: DRAFT | PUBLISHED
 #+FILETAGS: persian
+- Lessons :: https://www.chaiandconversation.com/lessons
 * PUBLISHED Overview: 30 Days of Persian Challenge
 CLOSED: [2019-09-21 Sat 16:26]
 #+HTML: <div class="callout">
