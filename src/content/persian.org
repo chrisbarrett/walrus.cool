@@ -309,3 +309,60 @@ CLOSED: [2019-10-01 Tue 22:52]
 - لیلا: شما کی هستید؟
 - فرزمه: من مادر تو هستم.
 - لیلا: سلام مامن! بله٬ شما مادر من هستید و من دختر شما هستم.
+* PUBLISHED 30 Days of Persian: Day Seven
+CLOSED: [2019-10-02 Wed 23:41]
+- [[https://www.chaiandconversation.com/podcast/how-talk-about-your-job-and-where-you-work][How to Talk About Your Job and Where You Work]]
+** Jobs
+- مُعلِم :: teacher
+- شاگِرْد :: student
+- مُهندِس :: engineer
+- وَکیل :: lawyer (see: advocate)
+- نِبیسنْده :: writer
+- مِعمار :: architect
+- دکتر :: doctor
+- بازنشسته :: retired
+
+- تو چکاره هستی؟ :: what's your job? (inf.)
+  - چِـ :: what?
+  - کار :: work
+- شما چکاره هستین؟ :: what's your job? (forml.)
+
+- اِداره :: office
+- کار خانه :: factory (lit. /house of work/)
+  - کار :: work
+  - خانه :: house
+- رِسْتوران :: restauraunt
+- بیمارِسْتان :: hospital
+
+- کجا می کنی؟ :: where do you work?
+- من در اداره کار میکنم :: I work in an office
+- در کار خانه کار میکنم :: I work in a factory
+- کار میکنام :: I work
+- من کار نمیکنم :: I don't work
+- من بیکارم :: I'm unemployed
+- من بازنشسته هستم  :: I'm retired
+
+- کاره تو دوست داری؟ :: do you like your job? (inf.)
+  - دوست :: to like
+  - داره؟ :: do you...?
+- کارتو نا دوست دارید؟ :: do you like your job? (forml.)
+- بله، کارمو دوست دارم :: yes, I like my job
+- نه، کارمو دوست ندارم :: no, I don't like my job
+
+- You can use the /ـَم/ noun suffix as an alternative to /هستم/ .
+  - معلم هستم :: I'm a teacher
+  - معلمم :: I'm a teacher
+** Conversation
+- لیلا: مت، تو چکاره هستی؟
+- مت: شاگرد هستم. تو چطور، چکاره هستی؟
+  - تو چطور :: how about you? (inf.)
+- لیلا: من معام هستم.
+** Conversation
+- سارا: سلام، اسم من سارا هست.
+- دانیل: سلام. من دانیل هستم.
+- سارا: دانیل، چکاره هستی؟
+- دانیل: من دکتر هستم.
+- سارا: کجا کار می کنی؟
+- دانیل: در بمارستان کار میکنم.
+- سارا: کاره تو دوست داری؟
+- دانیل: خیلی کارمو دوست دارم.
