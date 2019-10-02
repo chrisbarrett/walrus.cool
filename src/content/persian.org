@@ -3,6 +3,7 @@
 #+TODO: DRAFT | PUBLISHED
 #+FILETAGS: persian
 - Lessons :: https://www.chaiandconversation.com/lessons
+- Google Translate :: [[https://translate.google.com/#view=home&op=translate&sl=auto&tl=fa]]
 * PUBLISHED Overview: 30 Days of Persian Challenge
 CLOSED: [2019-09-21 Sat 16:26]
 #+HTML: <div class="callout">
