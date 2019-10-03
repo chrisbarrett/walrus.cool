@@ -4,29 +4,6 @@
 #+FILETAGS: persian
 - Lessons :: https://www.chaiandconversation.com/lessons
 - Google Translate :: [[https://translate.google.com/#view=home&op=translate&sl=auto&tl=fa]]
-* PUBLISHED Overview: 30 Days of Persian Challenge
-CLOSED: [2019-09-21 Sat 16:26]
-#+HTML: <div class="callout">
-سلام!
-#+HTML: </div>
-** Hello There!
-I'm going to start learning Persian over the next 30 days or so (I'll allow
-myself the odd cheat day).
-
-I'll be using [[https://www.chaiandconversation.com/][Chai & Conversation]] as my main resource. Since I'm also interested
-in learning how to write informal Persian, I'll use Google Translate and some
-other Internet resources to help me transcribe what I hear.
-** Why Persian?
-I've studied Standard Arabic on my own for about a year. It's been a lot of fun
-but I've met a lot more Iranians than Arabic-speakers in my day-to-day life, so
-I've decided to switch over. I've also dated a few Persians. :sweat_smile:
-
-My prior exposure to Arabic means I'm already comfy with the Persian writing
-system. As a bonus, Persian borrows a lot of vocabulary from Arabic, which makes
-things easier.
-** Why a 30-Day Challenge?
-I want to cultivate a regular study habit, and I'm curious to see if this
-approach gets me into the mood.
 * PUBLISHED 30 Days of Persian: Day One
 CLOSED: [2019-09-22 Sun 22:31]
 - [[https://www.chaiandconversation.com/podcast/how-greet-people-and-ask-how-theyre-doing][How to Greet People and Ask How They're Doing]]
