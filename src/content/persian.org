@@ -166,10 +166,9 @@ CLOSED: [2019-09-29 Sun 09:25]
 
 - You can use this structure for cities too:
   - از اوکلند هستم.
-
 *** Asking Where You Live
-- شما کجا زندگی می کنین؟ :: Where do you live? (forml.)
-- تو کجا زندکی می کنی؟ :: Where do you live? (inf.)
+- شما کجا زندگی میکنین؟ :: Where do you live? (forml.)
+- تو کجا زندکی میکنی؟ :: Where do you live? (inf.)
   - کُجا؟ :: where?
   - زِندگی :: life
   - می کُنم :: I do
@@ -238,7 +237,6 @@ CLOSED: [2019-10-01 Tue 22:52]
 - پدر :: father
 - زن :: wife
 - شوهر :: husband
-
 ** Possessives
 - To form a possessive, use a noun with ezafe followed by a noun or pronoun.
   - شوهر من :: my husband
@@ -278,13 +276,14 @@ CLOSED: [2019-10-01 Tue 22:52]
   - من ی خواهر دارم. اسمش سارا هست.  :: I have a sister. Her name is Sarah.
   - من دو خواهر دارم. اسمون سارا و مریم هست. :: I have two sisters. Their names are Sarah and Maryam.
 ** Transcription: Phone Call
-- فرزمه: الو!
+ فرزانه/فرزانه
+- فرزانه: الو!
 - لیلا: سلام!
-- فرزمه: سلام.
+- فرزانه: سلام.
 - لیلا: اسم شما چیه؟
-- من فرزمه هستم.
+- من فرزانه هستم.
 - لیلا: شما کی هستید؟
-- فرزمه: من مادر تو هستم.
+- فرزانه: من مادر تو هستم.
 - لیلا: سلام مامن! بله٬ شما مادر من هستید و من دختر شما هستم.
 * PUBLISHED 30 Days of Persian: Day Seven
 CLOSED: [2019-10-02 Wed 23:41]
@@ -294,7 +293,7 @@ CLOSED: [2019-10-02 Wed 23:41]
 - شاگِرْد :: student
 - مُهندِس :: engineer
 - وَکیل :: lawyer (see: advocate)
-- نِبیسنْده :: writer
+- نِویسنْده :: writer
 - مِعمار :: architect
 - دکتر :: doctor
 - بازنشسته :: retired
@@ -302,7 +301,7 @@ CLOSED: [2019-10-02 Wed 23:41]
 - تو چکاره هستی؟ :: what's your job? (inf.)
   - چِـ :: what?
   - کار :: work
-- شما چکاره هستین؟ :: what's your job? (forml.)
+- شما چکاره هستید؟ :: what's your job? (forml.)
 
 - اِداره :: office
 - کار خانه :: factory (lit. /house of work/)
@@ -311,7 +310,7 @@ CLOSED: [2019-10-02 Wed 23:41]
 - رِسْتوران :: restauraunt
 - بیمارِسْتان :: hospital
 
-- کجا می کنی؟ :: where do you work?
+- کجا کار میکنی؟ :: where do you work?
 - من در اداره کار میکنم :: I work in an office
 - در کار خانه کار میکنم :: I work in a factory
 - کار میکنام :: I work
@@ -319,7 +318,7 @@ CLOSED: [2019-10-02 Wed 23:41]
 - من بیکارم :: I'm unemployed
 - من بازنشسته هستم  :: I'm retired
 
-- کاره تو دوست داری؟ :: do you like your job? (inf.)
+- کارِ تو دوست داری؟ :: do you like your job? (inf.)
   - دوست :: to like
   - داره؟ :: do you...?
 - کارتو نا دوست دارید؟ :: do you like your job? (forml.)
@@ -339,7 +338,7 @@ CLOSED: [2019-10-02 Wed 23:41]
 - دانیل: سلام. من دانیل هستم.
 - سارا: دانیل، چکاره هستی؟
 - دانیل: من دکتر هستم.
-- سارا: کجا کار می کنی؟
+- سارا: کجا کار میکنی؟
 - دانیل: در بمارستان کار میکنم.
 - سارا: کاره تو دوست داری؟
 - دانیل: خیلی کارمو دوست دارم.
