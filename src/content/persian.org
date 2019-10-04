@@ -276,7 +276,6 @@ CLOSED: [2019-10-01 Tue 22:52]
   - من ی خواهر دارم. اسمش سارا هست.  :: I have a sister. Her name is Sarah.
   - من دو خواهر دارم. اسمون سارا و مریم هست. :: I have two sisters. Their names are Sarah and Maryam.
 ** Transcription: Phone Call
- فرزانه/فرزانه
 - فرزانه: الو!
 - لیلا: سلام!
 - فرزانه: سلام.
