@@ -116,19 +116,22 @@ const StyledLayout = styled.div`
     padding-right: 1em;
   }
 
-  dt:before {
+  .bullet-hack {
+    position: relative;
+  }
+
+  .bullet-hack:before {
     content: '► ';
     position: absolute;
     color: var(--fg-dim-color);
     font-size: 0.47rem;
-    left: 0.5em;
+    left: -1.6em;
     top: 0.8em;
   }
 
-  dt.rtl:before {
+  .rtl > .bullet-hack:before {
     content: '◄ ';
-    position: absolute;
-    left: calc(100% - 1.9em);
+    left: calc(100% + 0.55em);
     top: 1em;
   }
 

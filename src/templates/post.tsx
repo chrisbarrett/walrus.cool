@@ -53,6 +53,12 @@ const postProcessHtml = (html: string): string => {
       .attr('lang', lang);
   });
 
+  // HACK: Add a block element to dt's so we have something to align bullets to.
+
+  $('dt').each((_, it) => {
+    $(it).prepend('<div class="bullet-hack" />');
+  });
+
   // Shift heading tags in generated HTML so we can use h1 for the page title.
   $('h1, h2, h3, h4, h5').each((_i, element) => {
     const heading = $(element);
