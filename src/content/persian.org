@@ -341,5 +341,115 @@ CLOSED: [2019-10-02 Wed 23:41]
 - دانیل: در بمارستان کار میکنم.
 - سارا: کاره تو دوست داری؟
 - دانیل: خیلی کارمو دوست دارم.
-* DRAFT 30 Days of Persian: Day Eight
-- [[https://www.chaiandconversation.com/podcast/how-talk-about-your-likes-and-dislikes][How to Talk About Your Likes and Dislikes]]
+* PUBLISHED Farsi with Neda: Lesson 1
+CLOSED: [2019-10-07 Mon 12:29]
+** Basic Greetings
+- سلام :: hello
+- خداحافظ ::  goodbye
+  - خدافظ :: goodbye (abbrev.)
+  - خدا :: god, deity
+** Non-Arabic Greetings
+These greetings are used by some people in Iran, but there are not as commonly
+  used as the Arabic-derived greetings.
+
+- درود :: hello
+- بدرود :: goodbye
+** Are You Good?
+*** Phrase: Are you good?
+- Standard ::
+  - شما خوب هستید؟
+- Formal ::
+  - شما خوبین؟
+    - خوبین؟
+  - شما خوبید؟
+    - خوبید؟
+- Informal ::
+  - تو خوب هستی؟
+  - خوب هستی؟
+  - خوبی؟
+*** Notes
+- خوب :: good
+- خوبم :: I'm well
+  - خوب + هستم
+- خوب نیستم :: I'm not good
+NB. persians will tend not to directly say that they're bad. They will instead
+say something like:
+- حالم خوب نیست
+Or the abbreviated:
+- حالم خوب نیس
+** How Are You?
+*** Phrase: How are you?
+- Standard ::
+  - شما چطور هستید؟
+- Formal ::
+  - شما چطورین؟
+    - چطورین؟
+  - شما چطورید؟
+    - چطورید؟
+- Informal ::
+  - تو چطوری؟
+    - چطوری؟
+*** Examples
+- سلام، چطوری؟
+- سلام، خوبی؟
+- سلام، چطور[ـید/ـین]؟
+- خوبـ[ـید/ـین]؟
+*** Notes
+- چطور :: how
+** Thanks
+There are many words that express thanks in Persian. These are the common ones:
+- مرسی
+- ممنون / ممنونم
+- تشکر / متشکرم
+- مچکر
+These expressions are more formal:
+- سپاسگزارم
+- سپاس
+You can use an intensifier. There are formal and informal intensifiers, which
+should match the formality of the expression.
+- خیلی :: very
+  - خیلی ممنون، خیلی ممنونم ::
+  - خیلی متشکرم :: thanks a lot
+- بسیار :: very (forml.)
+  - بسیار سپسگزارم :: thank you very much (very formal)
+** Me too
+- هم :: as well
+- منم :: me too
+  - من + هم
+** Vowel Shifting
+An 'ا' representing a long /a/ in standard or formal Persian may be shifted to a 'و', or long /u/, in speech.
+- e.g. /خانه/ becomes /خونه/ (house)
+- e.g. /نان/ becomes /نون/ (bread)
+** Saying your Name
+The 'ه' in /هسن/ tends to be dropped in speech.
+- اسم من ندا است :: my name is Neda
+- اسم من کریس است :: my name is Chris
+*** Copula suffices
+There are suffices you can add to nouns as an alternative to using /هست/. It's common to use suffix forms in speech.
+
+- For nouns ending in a vowel, the suffixes are /ـست/ and its abbreviated form /ـس/.
+  - اسم من نراس
+  - اسم من نداست
+- For nouns ending in anything else, the suffix is /ـِه/.
+  - اسم من کریسه
+** Subject Pronouns
+- من :: I
+- نو :: you (sing. informal)
+- او :: he/she (standard)
+- اون :: he/she (spoken)
+- ما :: we
+- شما :: you (pl. and sing. formal)
+- آنها، ایشان :: they (standard, formal)
+- اونا :: they (spoken)
+** To Be: هست
+- من هستم
+- تو هستی
+- او هست، او است
+- اون هس، اون هست
+- ما هستیم
+- شما هستید، شما هستین
+- آنها هستند
+- اونا هستن
+** Vocab
+- اُمید :: hope
+- بوس :: kiss
