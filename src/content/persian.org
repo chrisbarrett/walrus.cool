@@ -349,8 +349,8 @@ CLOSED: [2019-10-07 Mon 12:29]
   - خدافظ :: goodbye (abbrev.)
   - خدا :: god, deity
 ** Non-Arabic Greetings
-These greetings are used by some people in Iran, but there are not as commonly
-  used as the Arabic-derived greetings.
+These greetings are used by some people in Iran, but they're are not as commonly
+  used as the Arabic/Islamic greetings.
 
 - درود :: hello
 - بدرود :: goodbye
