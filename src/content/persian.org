@@ -411,7 +411,7 @@ should match the formality of the expression.
   - خیلی ممنون، خیلی ممنونم ::
   - خیلی متشکرم :: thanks a lot
 - بسیار :: very (forml.)
-  - بسیار سپسگزارم :: thank you very much (very formal)
+  - بسیار سپساگزارم :: thank you very much (very formal)
 ** Me too
 - هم :: as well
 - منم :: me too
@@ -421,11 +421,11 @@ An 'ا' representing a long /a/ in standard or formal Persian may be shifted to 
 - e.g. /خانه/ becomes /خونه/ (house)
 - e.g. /نان/ becomes /نون/ (bread)
 ** Saying your Name
-The 'ه' in /هسن/ tends to be dropped in speech.
+The 'ه' in /هست/ tends to be dropped in speech.
 - اسم من ندا است :: my name is Neda
 - اسم من کریس است :: my name is Chris
-*** Copula suffices
-There are suffices you can add to nouns as an alternative to using /هست/. It's common to use suffix forms in speech.
+*** Copula Suffices
+There are suffices you can add to nouns as an alternative to using /هست/. It's common to use suffix these forms in speech.
 
 - For nouns ending in a vowel, the suffixes are /ـست/ and its abbreviated form /ـس/.
   - اسم من نراس
@@ -434,7 +434,7 @@ There are suffices you can add to nouns as an alternative to using /هست/. It'
   - اسم من کریسه
 ** Subject Pronouns
 - من :: I
-- نو :: you (sing. informal)
+- تو :: you (sing. informal)
 - او :: he/she (standard)
 - اون :: he/she (spoken)
 - ما :: we
