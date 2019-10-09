@@ -1,41 +1,18 @@
 import * as React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
-import PostDate from '../components/post-date';
+import PostItem, { Props as PostProps } from '../components/post-item';
 import SEO from '../components/seo';
 
-interface OrgPost {
-  id: string;
-  fields: {
-    slug: string;
-  };
-  meta: {
-    title?: string;
-    date?: string;
-  };
-}
-
-interface QueryProps {
+interface Props {
   data: {
     allOrgContent: {
-      edges: { node: OrgPost }[];
+      edges: { node: PostProps }[];
     };
   };
 }
 
-const PostItem: React.SFC<OrgPost> = post => {
-  const date = post.meta.date && new Date(post.meta.date);
-  return (
-    <>
-      <h3>
-        <Link to={post.fields.slug}>{post.meta.title}</Link>
-      </h3>
-      {date && <PostDate value={date} />}
-    </>
-  );
-};
-
-const Index: React.SFC<QueryProps> = ({ data }) => {
+const Index: React.SFC<Props> = ({ data }) => {
   const posts = data.allOrgContent.edges.map(({ node }) => (
     <PostItem key={node.id} {...node} />
   ));
