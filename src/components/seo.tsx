@@ -1,10 +1,11 @@
+import * as React from 'react';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
 interface Props {
   description?: string;
   lang?: string;
-  meta?: Array<HTMLMetaElement>;
+  meta?: HTMLMetaElement[];
   title: string;
 }
 
