@@ -33,11 +33,11 @@ interface Props {
   };
 }
 
-const matchArabicOrPersian = /[آ-ی۰-۹]/;
+const matchArabicOrFarsi = /[آ-ی۰-۹]/;
 
-const isArabicOrPersian = (element: Cheerio): boolean => {
+const isArabicOrFarsi = (element: Cheerio): boolean => {
   const sample = element.text().substring(0, 3);
-  return matchArabicOrPersian.test(sample);
+  return matchArabicOrFarsi.test(sample);
 };
 
 const postProcessHtml = (html: string, rtlLang: string): string => {
@@ -46,7 +46,7 @@ const postProcessHtml = (html: string, rtlLang: string): string => {
   // Guess the text direction and language of block elements.
 
   $('p, ol, ul, dl, li, dt, dd').each((_, it) => {
-    const arabicLike = isArabicOrPersian($(it));
+    const arabicLike = isArabicOrFarsi($(it));
     const lang = arabicLike ? rtlLang : 'en';
     const dir = arabicLike ? 'rtl' : 'ltr';
 

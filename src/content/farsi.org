@@ -1,7 +1,7 @@
-#+TITLE: Persian
+#+TITLE: Farsi
 #+ORGA_PUBLISH_KEYWORD: PUBLISHED
 #+TODO: DRAFT | PUBLISHED
-#+FILETAGS: persian
+#+FILETAGS: farsi
 - Google Translate :: [[https://translate.google.com/#view=home&op=translate&sl=fa&tl=en]]
 * PUBLISHED Farsi with Neda: Lesson 1
 CLOSED: [2019-10-07 Mon 12:29]
@@ -34,7 +34,7 @@ These greetings are used by some people in Iran, but they're are not as commonly
 - خوبم :: I'm well
   - خوب + هستم
 - خوب نیستم :: I'm not good
-NB. persians will tend not to directly say that they're bad. They will instead
+NB. Persians will tend not to directly say that they're bad. They will instead
 say something like:
 - حالم خوب نیست
 Or the abbreviated:
@@ -115,3 +115,7 @@ There are suffices you can add to nouns as an alternative to using /هست/. It'
 ** Vocab
 - اُمید :: hope
 - بوس :: kiss
+* DRAFT Farsi with Neda: Lesson 2
+** Revision: Pronouns
+** Revision: Conjugation of هست
+** Conversations
