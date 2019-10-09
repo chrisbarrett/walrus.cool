@@ -28,11 +28,6 @@ export default Index;
 
 export const pageQuery = graphql`
   query IndexQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allOrgContent {
       edges {
         node {
