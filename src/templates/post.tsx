@@ -7,7 +7,10 @@ import Layout from '../components/layout';
 import PostDate from '../components/post-date';
 import SEO from '../components/seo';
 
-interface PageTemplateProps {
+interface Props {
+  pageContext: {
+    rtlLang: string;
+  };
   data: {
     site: {
       siteMetadata: {
@@ -37,14 +40,14 @@ const isArabicOrPersian = (element: Cheerio): boolean => {
   return matchArabicOrPersian.test(sample);
 };
 
-const postProcessHtml = (html: string): string => {
+const postProcessHtml = (html: string, rtlLang: string): string => {
   const $ = cheerio.load(emoji.emojify(html));
 
   // Guess the text direction and language of block elements.
 
   $('p, ol, ul, dl, li, dt, dd').each((_, it) => {
     const arabicLike = isArabicOrPersian($(it));
-    const lang = arabicLike ? 'fa' : 'en';
+    const lang = arabicLike ? rtlLang : 'en';
     const dir = arabicLike ? 'rtl' : 'ltr';
 
     $(it)
@@ -70,10 +73,10 @@ const postProcessHtml = (html: string): string => {
   return $.html();
 };
 
-const Template: React.SFC<PageTemplateProps> = ({ data }) => {
+const Template: React.SFC<Props> = ({ data, pageContext }) => {
   const { meta, html } = data.orgContent;
   const date = meta.date && new Date(meta.date);
-  const updatedHtml = postProcessHtml(html);
+  const updatedHtml = postProcessHtml(html, pageContext.rtlLang);
 
   return (
     <Layout>
