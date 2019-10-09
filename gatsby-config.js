@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'walrus.cool',
     description: "Chris Barrett's personal site",
-    keywords: 'gatsbyjs, gatsby, javascript, sample, something',
+    keywords: 'programming, study, arabic, persian, farsi',
     siteUrl: 'https://www.walrus.cool',
     author: {
       name: 'Chris Barrett',
