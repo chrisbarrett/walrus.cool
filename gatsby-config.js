@@ -5,7 +5,7 @@ module.exports = {
     title: 'walrus.cool',
     description: "Chris Barrett's personal site",
     keywords: 'gatsbyjs, gatsby, javascript, sample, something',
-    siteUrl: 'http://www.walrus.cool',
+    siteUrl: 'https://www.walrus.cool',
     author: {
       name: 'Chris Barrett',
       url: 'walrus.cool',
@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+        siteUrl: 'https://walrus.cool',
       },
     },
     'gatsby-plugin-emotion',
