@@ -3,4 +3,52 @@
 #+TODO: DRAFT | PUBLISHED
 #+FILETAGS: arabic
 - Google Translate :: [[https://translate.google.com/#view=home&op=translate&sl=en&tl=ar]]
-* DRAFT Arabic with Hasan: Lesson 1
+* PUBLISHED Arabic with Hasan: Lesson 1
+CLOSED: [2019-10-09 Wed 13:30]
+- This lesson was a general assessment of my Arabic level
+** Life
+
+- حديث :: conversation
+- حدثني :: talk to me about / tell me
+- قليل :: a little / few
+- عن :: about
+
+- أعيش في أوكلاند
+  - أعيش :: I live
+- عمري ثلاثون سنة
+  - عمر :: age
+** Describing a place
+- عدد السكان هو 400 ألف
+  - عدد :: number
+  - السكان :: residents
+  - عاصمة :: capital
+  - أكبر :: biggest
+  - عفواً :: excuse me
+  - عدد :: number
+  - السكان :: residents
+** Work
+- ما هو مجال عملك؟
+  - عمل :: work / job
+  - مجال :: domain
+
+- أنا أعمل كمطور برامج
+  - مطور :: developer
+  - برامج :: software (pl.)
+
+  - تطبيقات :: applications (i.e. apps)
+
+- أنا أحب عملي
+- أنا لا أحب عملي
+** Listening: Al Jazeera
+- مظاهرات :: demonstrations
+- عفواً :: excuse me
+** Listening: Fairouz Song
+- ليل :: night
+- حديقة :: garden
+- حدائق :: gardens
+- الوداع :: the farewell
+- هدية :: gift
+- هدايا :: gifts
+- شعر :: hair
+- شعري :: my hair
+- هبوب :: blow
