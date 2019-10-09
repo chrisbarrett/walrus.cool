@@ -2,7 +2,7 @@
 #+ORGA_PUBLISH_KEYWORD: PUBLISHED
 #+TODO: DRAFT | PUBLISHED
 #+FILETAGS: persian
-- Google Translate :: [[https://translate.google.com/#view=home&op=translate&sl=auto&tl=fa]]
+- Google Translate :: [[https://translate.google.com/#view=home&op=translate&sl=fa&tl=en]]
 * PUBLISHED Farsi with Neda: Lesson 1
 CLOSED: [2019-10-07 Mon 12:29]
 ** Basic Greetings
