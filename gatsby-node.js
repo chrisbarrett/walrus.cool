@@ -39,8 +39,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   query.data.allOrgContent.edges.forEach(({ node }) => {
-    const { slug, layout } = node.fields;
-    const component = path.resolve(`./src/templates/${layout || 'post'}.tsx`);
+    const { slug } = node.fields;
+    const component = path.resolve(`./src/templates/post.tsx`);
     const rtlLang = new RegExp('^/farsi/.*').test(slug) ? 'fa' : 'ar';
     const context = { id: node.id, rtlLang };
     createPage({ path: slug, component, context });
