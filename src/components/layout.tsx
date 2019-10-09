@@ -147,13 +147,15 @@ const StyledLayout = styled.div`
 
   /* Style RTL-text. */
 
-  *:lang(fa) {
+  *:lang(fa),
+  *:lang(ar) {
     font-size: 1.2rem;
     font-family: 'SF Pro AR', 'SF Pro Gulf', 'Palatino', 'Times New Roman',
       serif;
   }
 
-  *:lang(fa) *:lang(en) {
+  *:lang(fa) *:lang(en),
+  *:lang(ar) *:lang(en) {
     font-size: 1rem;
     font-family: 'Palatino', 'Times New Roman', serif;
   }

@@ -109,6 +109,7 @@ const HeaderSection = styled.div`
 `;
 
 const BodySection = styled.section`
+  dl:lang(ar) > dd:lang(en),
   dl:lang(fa) > dd:lang(en) {
     font-style: oblique;
     color: var(--fg-dim-color);
