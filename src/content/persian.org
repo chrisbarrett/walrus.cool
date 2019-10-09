@@ -73,7 +73,7 @@ should match the formality of the expression.
   - خیلی ممنون، خیلی ممنونم ::
   - خیلی متشکرم :: thanks a lot
 - بسیار :: very (forml.)
-  - بسیار سپساگزارم :: thank you very much (very formal)
+  - بسیار سپاسگزارم :: thank you very much (very formal)
 ** Me too
 - هم :: as well
 - منم :: me too
@@ -90,7 +90,7 @@ The 'ه' in /هست/ tends to be dropped in speech.
 There are suffices you can add to nouns as an alternative to using /هست/. It's common to use suffix these forms in speech.
 
 - For nouns ending in a vowel, the suffixes are /ـست/ and its abbreviated form /ـس/.
-  - اسم من نراس
+  - اسم من نداس
   - اسم من نداست
 - For nouns ending in anything else, the suffix is /ـِه/.
   - اسم من کریسه
