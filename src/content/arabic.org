@@ -1,0 +1,6 @@
+#+TITLE: Arabic
+#+ORGA_PUBLISH_KEYWORD: PUBLISHED
+#+TODO: DRAFT | PUBLISHED
+#+FILETAGS: arabic
+- Google Translate :: [[https://translate.google.com/#view=home&op=translate&sl=en&tl=ar]]
+* DRAFT Arabic with Hasan: Lesson 1
