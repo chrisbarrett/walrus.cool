@@ -24,7 +24,7 @@ These greetings are used by some people in Iran, but they're are not as commonly
   - خوبین؟
 - شما خوبید؟
   - خوبید؟
-***  Informal
+***  Colloquial
 - تو خوب هستی؟
 - خوب هستی؟
 - خوبی؟
@@ -46,7 +46,7 @@ Or the abbreviated:
   - چطورین؟
 - شما چطورید؟
   - چطورید؟
-*** Informal
+*** Colloquial
 - تو چطوری؟
   - چطوری؟
 *** Examples
@@ -65,7 +65,7 @@ There are many words that express thanks in Persian. These are the common ones:
 These expressions are more formal:
 - سپاسگزارم
 - سپاس
-You can use an intensifier. There are formal and informal intensifiers, which
+You can use an intensifier. There are formal and colloquial intensifiers, which
 should match the formality of the expression.
 - خیلی :: very
   - خیلی ممنون، خیلی ممنونم ::
@@ -94,7 +94,7 @@ There are suffices you can add to nouns as an alternative to using /هست/. It'
   - اسم من کریسه
 ** Subject Pronouns
 - من :: I
-- تو :: you (sing. informal)
+- تو :: you (sing. colloq.)
 - او :: he/she (standard)
 - اون :: he/she (spoken)
 - ما :: we
@@ -125,7 +125,7 @@ There are suffices you can add to nouns as an alternative to using /هست/. It'
   (e.g. by an associated conjugated verb)
 - In general, the 2nd person plural pronoun /شما/ and its associated verb form is
   used for polite address
-*** Spoken
+*** Colloquial
 | plurality | person | usage  | value |
 |-----------+--------+--------+-------|
 | s         |      1 |        | من    |
@@ -136,8 +136,7 @@ There are suffices you can add to nouns as an alternative to using /هست/. It'
 | p         |      2 |        | شما   |
 | p         |      3 | casual | آنها  |
 | p         |      3 | polite | ایشون |
-
-*** Literary
+*** Standard
 | plurality | person | usage     | value |
 |-----------+--------+-----------+-------|
 | s         |      1 |           | من    |
