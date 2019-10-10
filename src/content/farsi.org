@@ -14,8 +14,8 @@ CLOSED: [2019-10-07 Mon 12:29]
 These greetings are used by some people in Iran, but they're are not as commonly
   used as the Arabic/Islamic greetings.
 
-- درود :: hello
-- بدرود :: goodbye
+- دُرود :: hello
+- بِدْرود :: goodbye
 ** Are You Good?
 ***  Standard
 - شما خوب هستید؟
@@ -60,7 +60,7 @@ Or the abbreviated:
 There are many words that express thanks in Persian. These are the common ones:
 - مرسی
 - ممنون / ممنونم
-- تشکر / متشکرم
+- تَشَکُر / مُتَشْکَرَم
 - مچکر
 These expressions are more formal:
 - سپاسگزارم
@@ -70,7 +70,7 @@ should match the formality of the expression.
 - خیلی :: very
   - خیلی ممنون، خیلی ممنونم ::
   - خیلی متشکرم :: thanks a lot
-- بسیار :: very (forml.)
+- بِسْیار :: very (forml.)
   - بسیار سپاسگزارم :: thank you very much (very formal)
 ** Me too
 - هم :: as well
@@ -126,16 +126,17 @@ There are suffices you can add to nouns as an alternative to using /هست/. It'
 - In general, the 2nd person plural pronoun /شما/ and its associated verb form is
   used for polite address
 *** Colloquial
-| plurality | person | usage  | value |
-|-----------+--------+--------+-------|
-| s         |      1 |        | من    |
-| s         |      2 |        | تو    |
-| s         |      3 | casual | اُو    |
-| s         |      3 | formal | ایشون |
-| p         |      1 |        | ما    |
-| p         |      2 |        | شما   |
-| p         |      3 | casual | آنها  |
-| p         |      3 | polite | ایشون |
+| Person  | Usage  | Value |
+|---------+--------+-------|
+| 1 sing. |        | من    |
+| 2 sing. |        | تو    |
+| 3 sing. | casual | اُو    |
+| 3 sing. | casual | اُون   |
+| 3 sing. | formal | ایشون |
+| 1 pl.   |        | ما    |
+| 2 pl.   |        | شما   |
+| 3 pl.   | casual | آنها  |
+| 3 pl.   | polite | ایشون |
 *** Standard
 | plurality | person | usage     | value |
 |-----------+--------+-----------+-------|
@@ -163,4 +164,48 @@ There are suffices you can add to nouns as an alternative to using /هست/. It'
  - ما هستیم
  - شما هستید
  - آنها هستند
+** Phrases
+- دیگه چی؟ :: what else?
+- درسته؟ :: is it correct?
+** Possession
+- Possession can be expressed with attached or detached pronouns.
+- With detached pronouns, the subject is in ezafe construction.
+
+*** Colloquial
+| Detached | Attached |
+|----------+----------|
+| اسم من   | اسمَم     |
+| اسم تو   | اسمِت     |
+| اسم اون  | اسمِش     |
+| اسم ما   | اسمِمون   |
+| اسم شما  | اسمِتون   |
+| اسم آنها | اسمِشون   |
+*** Standard
+| Detached | Attached |
+|----------+----------|
+| اسم من   | اسمَم     |
+| اسم تو   | اسمَت     |
+| اسم او   | اسمَش     |
+| اسم ما   | اسمِمان   |
+| اسم شما  | اسمِتان   |
+| اسم آنها | اسمِشان   |
+** Family Names
+** Titles
+- Titles can be used for both given and family names
+- Titles are generally used /after/ the name
+- Never use a title when referring to yourself
+
+- خانم/خانوم :: Mrs.
+- آقا :: Mr.
+- دوشیزه :: Miss (official contexts)
+- جون ::  dear (for close male and female friends)
+  - جان :: dear (slightly more respectful)
+
+*** Examples
+- سارا جان
+- سارا جانم
+- عای آقا
+** Jobs
+** Greetings for Time of Day
+** Numbers
 ** Conversations
