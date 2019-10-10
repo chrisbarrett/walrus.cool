@@ -70,6 +70,27 @@ const StyledLayout = styled.div`
     }
   }
 
+  /* Set table styles. */
+
+  thead {
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+  }
+
+  tbody td {
+    text-align: center;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
   /* Set padding for lists. */
 
   ul,
