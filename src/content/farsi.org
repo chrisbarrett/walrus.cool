@@ -17,18 +17,17 @@ These greetings are used by some people in Iran, but they're are not as commonly
 - درود :: hello
 - بدرود :: goodbye
 ** Are You Good?
-*** Phrase: Are you good?
-- Standard ::
-  - شما خوب هستید؟
-- Formal ::
-  - شما خوبین؟
-    - خوبین؟
-  - شما خوبید؟
-    - خوبید؟
-- Informal ::
-  - تو خوب هستی؟
-  - خوب هستی؟
-  - خوبی؟
+***  Standard
+- شما خوب هستید؟
+***  Formal
+- شما خوبین؟
+  - خوبین؟
+- شما خوبید؟
+  - خوبید؟
+***  Informal
+- تو خوب هستی؟
+- خوب هستی؟
+- خوبی؟
 *** Notes
 - خوب :: good
 - خوبم :: I'm well
@@ -40,17 +39,16 @@ say something like:
 Or the abbreviated:
 - حالم خوب نیس
 ** How Are You?
-*** Phrase: How are you?
-- Standard ::
-  - شما چطور هستید؟
-- Formal ::
-  - شما چطورین؟
-    - چطورین؟
-  - شما چطورید؟
-    - چطورید؟
-- Informal ::
-  - تو چطوری؟
-    - چطوری؟
+*** Standard
+- شما چطور هستید؟
+*** Formal
+- شما چطورین؟
+  - چطورین؟
+- شما چطورید؟
+  - چطورید؟
+*** Informal
+- تو چطوری؟
+  - چطوری؟
 *** Examples
 - سلام، چطوری؟
 - سلام، خوبی؟
