@@ -101,15 +101,21 @@ There are suffices you can add to nouns as an alternative to using /هست/. It'
 - شما :: you (pl. and sing. formal)
 - آنها، ایشان :: they (standard, formal)
 - اونا :: they (spoken)
-** To Be: هست
+** To Be: بودن
+*** Colloquial
 - من هستم
 - تو هستی
-- او هست، او است
-- اون هس، اون هست
+- او هست
 - ما هستیم
-- شما هستید، شما هستین
-- آنها هستند
-- اونا هستن
+- شما هستین
+- اونها هستن
+*** Standard
+ - من هستم
+ - تو هستی
+ - او هست
+ - ما هستیم
+ - شما هستید
+ - آنها هستند
 ** Vocab
 - اُمید :: hope
 - بوس :: kiss
