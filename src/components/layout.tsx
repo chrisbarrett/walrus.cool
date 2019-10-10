@@ -158,10 +158,6 @@ const StyledLayout = styled.div`
 
   /* Work around poor browser support for text direction pseudo-selector. */
 
-  .ltr {
-    text-align: left;
-  }
-
   .rtl {
     text-align: right;
   }
