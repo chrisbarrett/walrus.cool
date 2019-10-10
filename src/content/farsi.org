@@ -116,6 +116,35 @@ There are suffices you can add to nouns as an alternative to using /هست/. It'
 - اُمید :: hope
 - بوس :: kiss
 * DRAFT Farsi with Neda: Lesson 2
-** Revision: Pronouns
+** Revision: Subject Pronouns
+- Subject pronouns are optional if the subject is made unambiguous by context
+  (e.g. by an associated conjugated verb)
+- In general, the 2nd person plural pronoun /شما/ and its associated verb form is
+  used for polite address
+*** Spoken
+| plurality | person | usage  | value |
+|-----------+--------+--------+-------|
+| s         |      1 |        | من    |
+| s         |      2 |        | تو    |
+| s         |      3 | casual | اُو    |
+| s         |      3 | formal | ایشون |
+| p         |      1 |        | ما    |
+| p         |      2 |        | شما   |
+| p         |      3 | casual | آنها  |
+| p         |      3 | polite | ایشون |
+
+*** Literary
+| plurality | person | usage     | value |
+|-----------+--------+-----------+-------|
+| s         |      1 |           | من    |
+| s         |      2 |           | تو    |
+| s         |      3 | polite    | ایشان |
+| s         |      3 | human     | اُو    |
+| s         |      3 | non-human | آن    |
+| p         |      1 |           | ما    |
+| p         |      2 |           | شما   |
+| p         |      3 | general   | آنها  |
+| p         |      3 | polite    | ایشان |
+
 ** Revision: Conjugation of هست
 ** Conversations
