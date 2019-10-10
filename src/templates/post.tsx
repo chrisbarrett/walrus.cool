@@ -45,7 +45,7 @@ const postProcessHtml = (html: string, rtlLang: string): string => {
 
   // Guess the text direction and language of block elements.
 
-  $('p, ol, ul, dl, li, dt, dd').each((_, it) => {
+  $('p, ol, ul, dl, li, dt, dd, td').each((_, it) => {
     const arabicLike = isArabicOrFarsi($(it));
     const lang = arabicLike ? rtlLang : 'en';
     const dir = arabicLike ? 'rtl' : 'ltr';
