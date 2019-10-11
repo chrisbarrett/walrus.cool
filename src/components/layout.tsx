@@ -176,6 +176,14 @@ const StyledLayout = styled.div`
     font-size: 1rem;
     font-family: 'Palatino', 'Times New Roman', serif;
   }
+
+  ol:lang(fa) {
+    list-style: persian;
+  }
+
+  ol:lang(ar) {
+    list-style: arabic-indic;
+  }
 `;
 
 const Layout: React.SFC = ({ children }) => (
