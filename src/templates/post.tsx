@@ -75,7 +75,7 @@ const postProcessHtml = (html: string, rtlLang: string): string => {
     firstRow.children('td').each((index, cell) => {
       if (cell.attribs['dir'] === 'rtl') {
         const headerCell = headerRow.get(index);
-        $(headerCell).addClass('rtl-header-cell');
+        $(headerCell).addClass('right-aligned-column');
       }
     });
   });
@@ -160,7 +160,7 @@ const Styles = styled.div`
     margin-right: 1em;
   }
 
-  & .rtl-header-cell {
+  & .right-aligned-column {
     text-align: right;
   }
 `;

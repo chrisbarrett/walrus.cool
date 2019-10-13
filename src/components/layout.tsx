@@ -88,8 +88,9 @@ const StyledLayout = styled.div`
     padding: 0.5rem;
   }
 
+  thead th,
   tbody td {
-    text-align: center;
+    text-align: left;
   }
 
   table {
