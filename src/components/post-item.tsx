@@ -21,11 +21,11 @@ const Styles = styled.div`
     width: 35%;
     text-align: right;
     margin-top: 0.25em;
-    padding-right: 2rem;
   }
   & h3 {
     vertical-align: center;
     display: inline;
+    padding-left: 2rem;
     margin-top: 0;
     order: 2;
   }

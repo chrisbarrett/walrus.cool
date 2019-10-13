@@ -2,6 +2,7 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostItem, { Props as PostProps } from '../components/post-item';
+import styled from '@emotion/styled';
 import SEO from '../components/seo';
 
 interface Props {
@@ -19,10 +20,21 @@ const Index: React.SFC<Props> = ({ data }) => {
   return (
     <Layout>
       <SEO />
+      <HeadingStyles>
+        <h1>All Posts</h1>
+      </HeadingStyles>
       {posts}
     </Layout>
   );
 };
+
+const HeadingStyles = styled.div`
+  margin-left: calc(35% + 2rem);
+  & > h1 {
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+`;
 
 export default Index;
 
