@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import moment from 'moment';
 import { graphql } from 'gatsby';
 import emoji from 'node-emoji';
 import cheerio from 'cheerio';
 import Layout from '../components/layout';
-import PostDate from '../components/post-date';
 import SEO from '../components/seo';
 
 interface Props {
@@ -75,7 +75,7 @@ const postProcessHtml = (html: string, rtlLang: string): string => {
 
 const Template: React.SFC<Props> = ({ data, pageContext }) => {
   const { meta, html } = data.orgContent;
-  const date = meta.date && new Date(meta.date);
+  const date = moment(meta.date);
   const updatedHtml = postProcessHtml(html, pageContext.rtlLang);
 
   return (
@@ -83,33 +83,33 @@ const Template: React.SFC<Props> = ({ data, pageContext }) => {
       <SEO title={meta.title} />
       <article>
         <Styles>
-          <HeaderSection>
+          <header>
             <h1>{meta.title}</h1>
-            {date && <PostDate value={date} />}
-          </HeaderSection>
-          <BodySection>
-            {/* eslint-disable-next-line react/no-danger */}
-            <div dangerouslySetInnerHTML={{ __html: updatedHtml }} />
-          </BodySection>
+            <time dateTime={date.toISOString()}>
+              {date.format('MMM D, YYYY')}
+            </time>
+          </header>
+          {/* eslint-disable-next-line react/no-danger */}
+          <div dangerouslySetInnerHTML={{ __html: updatedHtml }} />
         </Styles>
       </article>
     </Layout>
   );
 };
 
-export default Template;
-
-const HeaderSection = styled.div`
-  margin-bottom: 3em;
-  border-bottom: 1px solid var(--border-color);
-
-  ${PostDate} {
-    text-align: right;
+const Styles = styled.div`
+  & h1 {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 0;
   }
-`;
 
-const BodySection = styled.section`
-  dl:lang(ar) > dd:lang(en),
+  & time {
+    text-align: right;
+    color: var(--fg-dim-color);
+    font-style: oblique;
+  }
+
+  & dl:lang(ar) > dd:lang(en),
   dl:lang(fa) > dd:lang(en) {
     font-style: oblique;
     color: var(--fg-dim-color);
@@ -117,17 +117,17 @@ const BodySection = styled.section`
     margin-right: 1.2em;
   }
 
-  dl:lang(en) > dd:lang(en) {
+  & dl:lang(en) > dd:lang(en) {
     font-style: oblique;
     color: var(--fg-dim-color);
   }
 
-  dt {
+  & dt {
     color: var(--default-text-color);
     font-style: normal;
   }
 
-  li > dl,
+  & li > dl,
   li > ul,
   li > ol,
   dd > dl,
@@ -136,8 +136,6 @@ const BodySection = styled.section`
     margin-right: 1em;
   }
 `;
-
-const Styles = styled.div``;
 
 export const pageQuery = graphql`
   query BlogPostQuery($id: String!) {
@@ -150,3 +148,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default Template;
