@@ -32,5 +32,18 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'walrus.cool',
+        short_name: 'walrus.cool',
+        lang: 'en',
+        start_url: '/',
+        background_color: '#fdf6e3',
+        theme_color: '#007aff',
+        display: 'standalone',
+        icon: `src/images/walrus.png`,
+      },
+    },
   ],
 };
