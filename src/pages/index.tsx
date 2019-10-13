@@ -28,7 +28,7 @@ export default Index;
 
 export const pageQuery = graphql`
   query IndexQuery {
-    allOrgContent {
+    allOrgContent(sort: { fields: meta___date, order: DESC }) {
       edges {
         node {
           id
