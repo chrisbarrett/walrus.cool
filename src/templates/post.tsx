@@ -56,6 +56,30 @@ const postProcessHtml = (html: string, rtlLang: string): string => {
       .attr('lang', lang);
   });
 
+  // Guess text-alignment for table headers based on first row.
+
+  $('table').each((_, it) => {
+    const table = $(it);
+
+    const headerRow = table
+      .children('thead')
+      .children('tr')
+      .first()
+      .children('th');
+
+    const firstRow = table
+      .children('tbody')
+      .children('tr')
+      .first();
+
+    firstRow.children('td').each((index, cell) => {
+      if (cell.attribs['dir'] === 'rtl') {
+        const headerCell = headerRow.get(index);
+        $(headerCell).addClass('rtl-header-cell');
+      }
+    });
+  });
+
   // HACK: Add a block element to dt's so we have something to align bullets to.
 
   $('dt').each((_, it) => {
@@ -134,6 +158,10 @@ const Styles = styled.div`
   dd > ul,
   dd > ol {
     margin-right: 1em;
+  }
+
+  & .rtl-header-cell {
+    text-align: right;
   }
 `;
 
