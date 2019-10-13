@@ -193,7 +193,6 @@ CLOSED: [2019-10-10 Thu 17:58]
 | اسم ما   | اسمِمان   |
 | اسم شما  | اسمِتان   |
 | اسم آنها | اسمِشان   |
-** Family Names
 ** Titles
 - Titles can be used for both given and family names
 - Titles are generally used /after/ the name
