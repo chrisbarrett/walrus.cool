@@ -1,5 +1,7 @@
 'use strict';
 
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
     title: 'walrus.cool',
@@ -17,7 +19,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'content',
-        path: `${__dirname}/src/content`,
+        path: path.join(__dirname, 'src', 'content'),
       },
     },
     'gatsby-transformer-json',
@@ -42,7 +44,7 @@ module.exports = {
         background_color: '#fdf6e3',
         theme_color: '#007aff',
         display: 'standalone',
-        icon: `src/images/walrus.png`,
+        icon: path.join(__dirname, 'src', 'images', 'walrus.png'),
       },
     },
   ],
