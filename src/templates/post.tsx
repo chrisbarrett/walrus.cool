@@ -79,7 +79,7 @@ const Template: React.SFC<Props> = ({ data, pageContext }) => {
   const updatedHtml = postProcessHtml(html, pageContext.rtlLang);
 
   return (
-    <Layout>
+    <Layout noHeader={true}>
       <SEO title={meta.title} />
       <article>
         <Styles>

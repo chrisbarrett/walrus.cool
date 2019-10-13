@@ -185,9 +185,13 @@ const StyledLayout = styled.div`
   }
 `;
 
-const Layout: React.SFC = ({ children }) => (
+interface Props {
+  noHeader?: boolean;
+}
+
+const Layout: React.SFC<Props> = ({ children, noHeader }) => (
   <>
-    <Header />
+    {noHeader ? null : <Header />}
     <main>
       <StyledLayout>{children}</StyledLayout>
     </main>
