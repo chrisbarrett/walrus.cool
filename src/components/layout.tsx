@@ -26,6 +26,10 @@ const StyledLayout = styled.div`
     font-family: 'SF Pro Display', 'Helvetica Neue', 'Helvetica', 'Arial',
       sans-serif;
   }
+  & time {
+    font-family: 'SF Pro Display', 'Helvetica Neue', 'Helvetica', 'Arial',
+      sans-serif;
+  }
 
   /* Style links to look better in both light and dark modes. */
 
@@ -44,10 +48,6 @@ const StyledLayout = styled.div`
   }
 
   /* Dynamically resize heading elements for viewport. */
-
-  h1 {
-    text-align: center;
-  }
 
   @media only screen and (max-width: 1068px) {
     h1 {

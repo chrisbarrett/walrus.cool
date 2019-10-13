@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import PostDate from './post-date';
-import styled from '@emotion/styled';
+import moment from 'moment';
 
 export interface Props {
   id: string;
@@ -9,37 +8,22 @@ export interface Props {
     slug: string;
   };
   meta: {
-    title?: string;
-    date?: string;
+    title: string;
+    date: string;
   };
 }
 
-const Styles = styled.div`
-  display: flex;
-  & .post-date {
-    order: 1;
-    width: 35%;
-    text-align: right;
-    margin-top: 0.25em;
-  }
-  & h3 {
-    vertical-align: center;
-    display: inline;
-    padding-left: 2rem;
-    margin-top: 0;
-    order: 2;
-  }
-`;
-
 const PostItem: React.SFC<Props> = post => {
-  const date = post.meta.date && new Date(post.meta.date);
+  const date = moment(post.meta.date);
   return (
-    <Styles>
-      {date && <PostDate className="post-date" value={date} />}
+    <div className="post-item">
+      {date && (
+        <time dateTime={date.toISOString()}>{date.format('MMM D')}</time>
+      )}
       <h3>
         <Link to={post.fields.slug}>{post.meta.title}</Link>
       </h3>
-    </Styles>
+    </div>
   );
 };
 
