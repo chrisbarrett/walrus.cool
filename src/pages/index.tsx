@@ -18,7 +18,7 @@ const Index: React.SFC<Props> = ({ data }) => {
   ));
   return (
     <Layout>
-      <SEO title="home" />
+      <SEO />
       {posts}
     </Layout>
   );

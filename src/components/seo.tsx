@@ -6,7 +6,7 @@ interface Props {
   description?: string;
   lang?: string;
   meta?: HTMLMetaElement[];
-  title: string;
+  title?: string;
 }
 
 const SEO: React.SFC<Props> = ({ description, lang, meta, title }) => {
@@ -33,8 +33,7 @@ const SEO: React.SFC<Props> = ({ description, lang, meta, title }) => {
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={title || site.siteMetadata.title}
       meta={[
         {
           name: `description`,
