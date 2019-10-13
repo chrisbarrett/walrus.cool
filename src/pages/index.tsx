@@ -47,7 +47,11 @@ const Index: React.SFC<Props> = ({ data }) => {
 
 const Styles = styled.div`
   --column-width: 4rem;
-  --title-padding: 2rem;
+  --title-padding: 1rem;
+
+  @media only screen and (min-width: 735px) {
+    --title-padding: 2rem;
+  }
 
   & h1 {
     margin-left: calc(var(--column-width) + var(--title-padding));

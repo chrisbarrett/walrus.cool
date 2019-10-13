@@ -8,8 +8,10 @@ const StyledLayout = styled.div`
 
   margin: 0 auto;
   max-width: var(--content-width);
-  padding: 0px 1.0875rem 1.45rem;
-  padding-top: 0;
+
+  @media only screen and (min-width: 735px) {
+    padding: 0px 1.0875rem 1.45rem;
+  }
 
   /* Apply basic typeface settings. */
 
