@@ -139,17 +139,17 @@ CLOSED: [2019-10-10 Thu 17:58]
 | 3 pl.   | casual | آنها  |
 | 3 pl.   | polite | ایشون |
 *** Standard
-| plurality | person | usage     | value |
-|-----------+--------+-----------+-------|
-| s         |      1 |           | من    |
-| s         |      2 |           | تو    |
-| s         |      3 | polite    | ایشان |
-| s         |      3 | human     | اُو    |
-| s         |      3 | non-human | آن    |
-| p         |      1 |           | ما    |
-| p         |      2 |           | شما   |
-| p         |      3 | general   | آنها  |
-| p         |      3 | polite    | ایشان |
+| Person  | Usage     | Value |
+|---------+-----------+-------|
+| 1 sing. |           | من    |
+| 2 sing. |           | تو    |
+| 3 sing. | polite    | ایشان |
+| 3 sing. | human     | اُو    |
+| 3 sing. | non-human | آن    |
+| 1 pl.   |           | ما    |
+| 2 pl.   |           | شما   |
+| 3 pl.   | general   | آنها  |
+| 3 pl.   | polite    | ایشان |
 ** Revision: Conjugation of بودن
 *** Colloquial
 - من هستم
