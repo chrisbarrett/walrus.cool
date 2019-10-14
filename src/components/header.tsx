@@ -10,7 +10,7 @@ const Header: React.SFC = () => (
         walrusPng: file(relativePath: { eq: "walrus.png" }) {
           childImageSharp {
             fixed(width: 200, quality: 100, grayscale: true) {
-              ...GatsbyImageSharpFixed_tracedSVG
+              ...GatsbyImageSharpFixed_noBase64
             }
           }
         }
