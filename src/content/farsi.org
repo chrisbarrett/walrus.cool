@@ -301,4 +301,82 @@ CLOSED: [2019-10-10 Thu 17:58]
 - هما: آرمان، این رابرته. رابرت، این آرمانه. :: Arman, this is Robert. Robert, this is Arman.
 - آرمان: سلام رابرت. حالت چطوره؟ :: Hi Robert. How's it going?
 - رابرت: سلام آرمان. خوبم، متشکرم. :: Hi Arman. I'm well, thanks.
-* DRAFT Farsi with Neda: Lesson 3
+* PUBLISHED Farsi with Neda: Lesson 3
+CLOSED: [2019-10-17 Thu 13:43]
+** Demonstratives & Prepositions
+- این :: this
+- آن :: that (written)
+- اون :: that (spoken)
+- اینان/اینها :: those (written)
+- اونا :: those (spoken)
+** Plurals
+- For most nouns, you can suffix /ـها/ to form the plural
+  - روز :: day
+  - روزها :: days
+- Some words conventionally take the Arabic plural. You have to learn these as you go.
+  - ایالت :: state
+  - ایالات :: states
+  - ایالات متده ی آمریکا :: The United States of America
+** Days of the Week: روزهای هفته
+- for easier memorisation, think of them as offset from Saturday (شنبه).
+
+
+- روزهایه هفته :: days of the week (written)
+- روزای هفته :: days of the week (spoken)
+- شنبه :: Saturday
+- یکشنبه :: Sunday
+- دوشنبه :: Monday
+- سه شنبه :: Tuesday
+- چهارشنبه/چارشنبه :: Wednesday
+- پنجشنبه :: Thursday
+- جمعه :: Friday
+** Where are you?
+- کجایی؟ کجا هستی؟ :: where are you? (informal)
+  - کجا :: where
+- کجایـ[ـید/ـین]؟ :: where are you? (formal)
+- کجاست...؟ :: where is...?
+** Where You're From
+- اهل [کجایین/کجایید]؟ اهل کجا هستـ[ید/ین]؟ :: where are you from? (formal)
+- از کدوم کشور[ـید/ـین]؟ از کدوم هستـ[ـید/ـین]؟ :: which country are you from? (formal)
+  - کشور :: country
+  - کدوم :: which (written)
+  - کدام :: which (spoken)
+- از کدام کشوری؟ از کدام هستی؟ :: which country are you from? (informal)
+
+- You can use either /لز/ or /اهل/ to express /where/ in these expressions.
+  - از کجایی؟ از کجا هستی؟ :: where are you from? (informal)
+  - اهل کجایی؟ اهل کجا هستی؟ :: where are you from? (informal)
+  - از نیوزیلندم :: I'm from New Zealand
+  - من نیوزیلندیم :: I'm a New Zealander
+  - از ایرانم. از ایران هستم. :: I'm from Iran
+  - اهل ایرانم. اهل ایران هستم. :: I'm from Iran
+  - منم ایرانیم :: I'm Iranian too
+
+- ایرانی هستم/ایرانم... :: I'm Iranian
+- ...ولی مادرم امریکیه :: but my mother is American
+- روستا :: village
+*** Digging Deeper
+- کجا ی ایران؟ :: where in Iran?
+- از کدوم قسمت ایران؟ :: from which part in Iran?
+  - قسمت :: part, section
+  - از /کدام/ قسمت ایران؟ :: /spoken/
+- از کدام شهر ایران؟ :: from which city in Iran?
+  - شهر :: city
+- شیرازیه :: I'm from Siraz (lit. I'm Shirazi)
+** Time Expressions
+- امشب :: tonight
+- امروز :: today
+- فردا :: tomorrow
+- پس فردا :: the day after tomorrow
+- دیروز :: yesterday
+- پریروز :: the day before yesterday
+** Yes and No
+- نه :: no (spoken)
+- خَیر :: no (written)
+- نه نخیر :: no no
+- نه خیر :: nope
+** Conjunctions
+- وَ :: and
+- یا :: or
+- ولی :: but, though
+- اما :: however
