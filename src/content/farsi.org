@@ -265,38 +265,39 @@ CLOSED: [2019-10-10 Thu 17:58]
 - ۷۰ :: هفتاد
 - ۸۰ :: هشتاد
 - ۹۰ :: نَوَد
-** Conversations
-*** Conversation 1
+* PUBLISHED Farsi with Node: Homework 2
+CLOSED: [2019-10-12 Sat 17:58]
+** Conversation 1
 - بابک: سلام. اسم من بابکه. اسم تو چیه؟ :: Hello. My name is Babak. What's yours?
 - مریم: سلام. اسم من مریمه. :: Hello. My name is Maryam.
-*** Conversation 2
+** Conversation 2
 - خانم رستمی: سلام. من رستمی هستم. اسم شما چیه؟ :: Hi, my name is Rostami. What's yours?
 - سامان: سلام خانوم معلم. اسم من سامانه. :: Hello [madam] teacher. My name is Saman.
-*** Conversation 3: صبح به خیر
+** Conversation 3: صبح به خیر
 - NB. /صبح به خیر/ is an alternative spelling of /صبح بخیر/.
 
 - سامان: سلام مامان! :: Hello mum!
 - مینا: سلام پسرم. صبح به خیر. سامان جون، چطوری؟  :: Hello my son. Good morning. Saman [my]  dear, how are you?
 - سامان: خوبم. خیلی ممنون. :: I'm good. Thanks very much.
-*** Conversation 4
+** Conversation 4
 - بابک: سلام. صبح به خیر. :: Hello. Good morning.
 - مریم: سلام. صبح به خیر. حالت چطوره؟ :: Hello. Good morning. How are you doing?
 - بابک: خوبم. حال تو چطوره؟ :: I'm well. How are you doing?
 - مریم: بد نیستم. مرسی. :: I'm not bad, thanks.
 - بابک: خدانگهدار. :: Farewell.
 - مریم: خداحافظ. :: Goodbye.
-*** Conversation 5: خوشوقتم
+** Conversation 5: خوشوقتم
 - بابک: سلام مریم! عصر به خیر. :: Hello Maryam. Good afternoon!
 - مریم: سلام بابک. چطوری؟ :: Hello Babak. How are you?
 - بابک: خوبم. خیلی ممنون. تو چطوری؟ :: I'm well, thanks very much. How are you?
 - مریم: منم بد نیستم. بابک، این شوهرم آرشه. :: I'm not bad either. Babak, this is my husband Arash.
 - بابک: سلام. خوشوقتم. :: Hello, pleased to meet you.
 - آرش: سلام. منم خوشوقتم. :: Hello, pleased to meet you too.
-*** Conversation 6
+** Conversation 6
 - خانم نادری: ندا، این رابرته. رابرت، این نداست. :: Neda, this is Robert. Robert, this is Neda.
 - ندا: سلام رابرت. حالت چطوره؟ :: Hi Robert. How's it going?
 - رابرت: سلام ندا. خوبم، متشکرم. :: Hi Neda. I'm well, thanks.
-*** Conversation 7
+** Conversation 7
 - هما: آرمان، این رابرته. رابرت، این آرمانه. :: Arman, this is Robert. Robert, this is Arman.
 - آرمان: سلام رابرت. حالت چطوره؟ :: Hi Robert. How's it going?
 - رابرت: سلام آرمان. خوبم، متشکرم. :: Hi Arman. I'm well, thanks.
