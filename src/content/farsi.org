@@ -382,8 +382,8 @@ CLOSED: [2019-10-17 Thu 13:43]
 - کجایـ[ـید/ـین]؟ :: where are you? (formal)
 - کجاست…؟ :: where is…?
 ** Where You're From
-- اهل [کجایین/کجایید]؟ اهل کجا هستـ[ید/ین]؟ :: where are you from? (formal)
-- از کدوم کشور[ـید/ـین]؟ از کدوم هستـ[ـید/ـین]؟ :: which country are you from? (formal)
+- اهل کجایین؟ اهل کجا هستین؟ :: where are you from? (formal)
+- از کدوم کشورین؟ از کدوم هستین؟ :: which country are you from? (formal)
   - کشور :: country
   - کدوم :: which (written)
   - کدام :: which (spoken)
