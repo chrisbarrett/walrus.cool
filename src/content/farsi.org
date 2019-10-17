@@ -82,11 +82,10 @@ An 'ا' representing a long /a/ in standard or formal Persian may be shifted to 
 - e.g. /خانه/ becomes /خونه/ (house)
 - e.g. /نان/ becomes /نون/ (bread)
 ** Saying your Name
-The 'ه' in /هست/ tends to be dropped in speech.
 - اسم من ندا است :: my name is Neda
 - اسم من کریس است :: my name is Chris
-*** Copula Suffices
-There are suffices you can add to nouns as an alternative to using /هست/. It's common to use suffix these forms in speech.
+** Copula Enclitics
+There are suffixes you can add to nouns as an alternative to using /هست/. It's common to use suffix these forms in speech.
 
 - For nouns ending in a vowel, the suffixes are /ـست/ and its abbreviated form /ـس/.
   - اسم من نداس
@@ -303,6 +302,53 @@ CLOSED: [2019-10-10 Thu 17:58]
 - رابرت: سلام آرمان. خوبم، متشکرم. :: Hi Arman. I'm well, thanks.
 * PUBLISHED Farsi with Neda: Lesson 3
 CLOSED: [2019-10-17 Thu 13:43]
+** Verb endings
+- Verbs in Farsi are learned by memorising the /present/ and /past/ stems
+- Verbs in most tenses are conjugated by adding suffixes
+
+| Person               | Suffix  |
+|----------------------+---------|
+| 1 s                  | ـَم      |
+| 2 s                  | ـِی      |
+| 3 s                  | ـَد      |
+| 1 pl                 | ـِیم     |
+| 2 pl (respectful s.) | ـِید/ـِین |
+| 3 pl (respectful s.) | ـَند/ـَن  |
+
+- The past tense endings are identical, except there is no /3 s/ ending (the stem
+  is left bare)
+- The present tense is formed by taking the present stem and adding the
+  appropriate ending.
+- Infinitives are built from the past steam and end in either /تن/ or /دن/
+** To Be: بودن
+- This verb is irregular in that it has no present stem
+- There are two forms--an enclitic form (the usual form) or an irregular form
+  used to emphasise that something 'exists'.
+- In colloquial use, the enclitics are written as suffixes when the following
+  a noun or adjective (but they can't be used after a pronoun)
+  - ـم
+  - ـی
+  - ـه
+  - ـیم
+  - ـین
+  - ـان
+- In more formal Farsi, the enclitics stand alone, e.g. /دختر تو ام/
+  - ام
+  - ای
+  - است
+  - ایم
+  - اید
+  - اند
+- The emphatic form uses the هست stem. It is irregular in that it uses past
+  tense suffixes.
+  - هستم
+  - هستی
+  - هست
+  - هستیم
+  - هستید
+  - هستند
+- If you want to form the negative, you have to use the emphatic present stem,
+  e.g. /نیستم/
 ** Demonstratives & Prepositions
 - این :: this
 - آن :: that (written)
@@ -334,7 +380,7 @@ CLOSED: [2019-10-17 Thu 13:43]
 - کجایی؟ کجا هستی؟ :: where are you? (informal)
   - کجا :: where
 - کجایـ[ـید/ـین]؟ :: where are you? (formal)
-- کجاست...؟ :: where is...?
+- کجاست…؟ :: where is…?
 ** Where You're From
 - اهل [کجایین/کجایید]؟ اهل کجا هستـ[ید/ین]؟ :: where are you from? (formal)
 - از کدوم کشور[ـید/ـین]؟ از کدوم هستـ[ـید/ـین]؟ :: which country are you from? (formal)
@@ -343,7 +389,7 @@ CLOSED: [2019-10-17 Thu 13:43]
   - کدام :: which (spoken)
 - از کدام کشوری؟ از کدام هستی؟ :: which country are you from? (informal)
 
-- You can use either /لز/ or /اهل/ to express /where/ in these expressions.
+- You can use either /از/ or /اهل/ to express /where/ in these expressions.
   - از کجایی؟ از کجا هستی؟ :: where are you from? (informal)
   - اهل کجایی؟ اهل کجا هستی؟ :: where are you from? (informal)
   - از نیوزیلندم :: I'm from New Zealand
@@ -352,8 +398,8 @@ CLOSED: [2019-10-17 Thu 13:43]
   - اهل ایرانم. اهل ایران هستم. :: I'm from Iran
   - منم ایرانیم :: I'm Iranian too
 
-- ایرانی هستم/ایرانم... :: I'm Iranian
-- ...ولی مادرم امریکیه :: but my mother is American
+- ایرانی هستم/ایرانم… :: I'm Iranian
+- …ولی مادرم امریکیه :: but my mother is American
 - روستا :: village
 *** Digging Deeper
 - کجا ی ایران؟ :: where in Iran?
@@ -375,6 +421,8 @@ CLOSED: [2019-10-17 Thu 13:43]
 - خَیر :: no (written)
 - نه نخیر :: no no
 - نه خیر :: nope
+- باه :: yes
+- آره :: yeah (colloq.)
 ** Conjunctions
 - وَ :: and
 - یا :: or
