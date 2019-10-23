@@ -304,8 +304,8 @@ CLOSED: [2019-10-12 Sat 17:58]
 * PUBLISHED Farsi with Neda: Lesson 3
 CLOSED: [2019-10-17 Thu 13:43]
 ** Verb endings
-- Verbs in Farsi are learned by memorising the /present/ and /past/ stems
-- Verbs in most tenses are conjugated by adding suffixes
+- Verbs in Farsi are learned by memorising the /present stem/ and /past infinitive/
+- Verbs in the present are conjugated by adding suffixes to the stem
 
 | Person               | Suffix  |
 |----------------------+---------|
@@ -316,11 +316,10 @@ CLOSED: [2019-10-17 Thu 13:43]
 | 2 pl (respectful s.) | ـِید/ـِین |
 | 3 pl (respectful s.) | ـَند/ـَن  |
 
-- The past tense endings are identical, except there is no /3 s/ ending (the stem
-  is left bare)
-- The present tense is formed by taking the present stem and adding the
-  appropriate ending.
-- Infinitives are built from the past steam and end in either /تن/ or /دن/
+- The past tense is formed by removing the infinitive suffix (/تن/ or /دن/) and
+  applying the past tense suffixes
+  - The past tense suffixes are the same as the present tense, except there is no
+    /3 s/ ending (the stem is left bare)
 ** To Be: بودن
 - This verb is irregular in that it has no present stem
 - There are two forms--an enclitic form (the usual form) or an irregular form
