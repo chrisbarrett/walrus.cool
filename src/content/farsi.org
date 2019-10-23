@@ -265,7 +265,7 @@ CLOSED: [2019-10-10 Thu 17:58]
 - ۷۰ :: هفتاد
 - ۸۰ :: هشتاد
 - ۹۰ :: نَوَد
-* PUBLISHED Farsi with Node: Homework 2
+* PUBLISHED Farsi with Neda: Homework 2
 CLOSED: [2019-10-12 Sat 17:58]
 ** Conversation 1
 - بابک: سلام. اسم من بابکه. اسم تو چیه؟ :: Hello. My name is Babak. What's yours?
