@@ -421,7 +421,7 @@ CLOSED: [2019-10-17 Thu 13:43]
 - خَیر :: no (written)
 - نه نخیر :: no no
 - نه خیر :: nope
-- باه :: yes
+- بله :: yes
 - آره :: yeah (colloq.)
 ** Conjunctions
 - وَ :: and
