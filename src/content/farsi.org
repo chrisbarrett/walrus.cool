@@ -463,3 +463,79 @@ CLOSED: [2019-10-24 Thu 12:46]
 - رابرت: اهل لندنم.
 - سارا: لندن کجاست؟
 - رابرت: در انگلیس.
+* DRAFT Farsi with Neda: Lesson 4
+* PUBLISHED Farsi with Neda: Homework 4
+CLOSED: [2019-10-29 Tue 21:04]
+** Notes: Combining suffixes
+- It is possible to form compounds of possessive suffixes with enclitic
+  copula, e.g. /تولّدمه (it is my birthday)/
+- The enclitic copula is functionally a verb and therefore follows SOV
+  word-order
+- Therefore the enclitic copula is the final particle in the sentence.
+** Conversation 1: How Old Are You?
+- علی: نَسیم جان، چند سالته؟ :: Nasim dear, how old are you?
+  - چَنْد ::
+  - سال :: year/age
+  - ـِت :: your
+  - ـِه :: is
+  - چند سالته؟ ::  how old are you? (lit. what is your age?)
+- نسیم: سیزده سالمه. :: I'm thirteen.
+  - … سالمه :: …years old
+- علی: تولّدت چه روزیه؟ :: What day is your birthday on?
+  - تَوَلُّد  :: birthday
+  - چه روزیه :: is on which day?
+- نسیم: بیست خرْداد. تو چند سالته؟ :: The twentieth of Khordad. How old are you?
+  - …ـِ خُرداد :: nth of Khordad
+- علی: تا دیروز چهارده ساله بودم. :: Until yesterday I was fourteen.
+  - تا :: until
+  - دیروز :: yesterday
+  - تا دیروز … بودم. :: until yesterday I was…
+- نسیم: یعنی چی؟ :: What does that mean?
+  - یَعْنی… :: that means…
+- علی: امروز تولّدمه. :: It's my birthday today.
+  - اِمْروز :: today
+  - ـَم  :: my
+  - ـِه :: is
+  - ـَمِه :: is my
+  - … تولّدمه :: … is my birthday
+- نسیم: مبارکه. یعنی الان پونزده سالته. :: Congratulations. That means you're fifteen now.
+- مُبَرَکِه :: congratulations
+- علی: درسته. الان پونرده سالمه. :: That's right. I'm fifteen now.
+  - دُرُسْته :: that's right
+  - الْان :: now
+** Conversation 2: Who Is This?
+- بابک: این آقا کیه؟ :: Who is this man?
+  - کی :: who
+- سارا: پدر بزرگمه :: my grandfather
+  - بُزُرگ  :: great/big
+  - پِدَر :: father
+- بابک: خیلی پیره. چند سالشه؟ :: He's really old. How old is he?
+  - پیر :: old
+  - ـِش :: his (polite)/their
+  - سالش :: his age
+- سارا: نه خیلی پیر نیست. فقط شصت سالشه. :: No, he's not very old. He's  only sixty.
+  - فَقَط :: only/merely
+- بابک: واقعاً؟ پس بابات چند سالشه؟ :: Really? So how old is your dad?
+  - واقِعاً؟ :: really? (exclaim.)
+  - پِس :: so (conj.)
+- سارا: بابام سی و نه سالشه. :: My father is thirty-nine.
+** Conversation 3: How Old Is Your Daughter?
+- مریم: دخترتون چند سال داره؟ :: How old is your daughter?
+  - دُختَر :: daughter
+  - ـتون :: your (polite)
+  - داره :: she has
+- بابک: هفت سالشه. :: She's seven.
+- مریم: فارسی بلده؟ :: Does she speak Farsi?
+- بابک: یه کم. :: A little
+  - کَم :: small, little, low
+  - یِه :: indefinite article
+- مریم: عزیزم اسمت چیه؟ :: What's your name my darling?
+  - عزیز :: darling
+- سیما: سیما. :: .Sima
+- مریم: چند سالته سیما جان؟ :: How old are you dear Sima?
+- سیما: هفت سالمه. :: Seven years old.
+- مریم: برادر و خواهر هم داری؟ :: Do you have brothers and sisters too?
+  - هَم :: too, as well
+- سیما: بله یه برادر و یه خواهر دارم. :: Yes, I have one brother and one sister.
+- مریم: چند سالسونه؟ :: How old are they?
+- سیما: برادرم هفده سالشه ولی خواهرم دوازده سالشه. :: My brother is seventeen but my sister is twelve.
