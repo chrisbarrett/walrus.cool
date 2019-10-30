@@ -7,7 +7,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && echo www.walrus.cool > public/CNAME",
     "clean": "rimraf public",
     "dev": "gatsby develop",
     "format": "prettier --no-color --write \"src/**/*.{ts,tsx,md}\"",
