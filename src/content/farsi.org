@@ -484,8 +484,8 @@ CLOSED: [2019-10-29 Tue 21:04]
 - علی: تولّدت چه روزیه؟ :: What day is your birthday on?
   - تَوَلُّد  :: birthday
   - چه روزیه :: is on which day?
-- نسیم: بیست خرْداد. تو چند سالته؟ :: The twentieth of Khordad. How old are you?
-  - …ـِ خُرداد :: nth of Khordad
+- نسیم: بیست خرداد. تو چند سالته؟ :: The twentieth of Khordad. How old are you?
+  - …ـِ خُرْداد :: nth of Khordad
 - علی: تا دیروز چهارده ساله بودم. :: Until yesterday I was fourteen.
   - تا :: until
   - دیروز :: yesterday
@@ -499,7 +499,7 @@ CLOSED: [2019-10-29 Tue 21:04]
   - ـَمِه :: is my
   - … تولّدمه :: … is my birthday
 - نسیم: مبارکه. یعنی الان پونزده سالته. :: Congratulations. That means you're fifteen now.
-- مُبَرَکِه :: congratulations
+- مُبارَکِه :: congratulations
 - علی: درسته. الان پونرده سالمه. :: That's right. I'm fifteen now.
   - دُرُسْته :: that's right
   - الْان :: now
