@@ -477,17 +477,42 @@ CLOSED: [2019-10-28 Mon 19:09]
   - می کنین، می کنید :: you (pl) do
   - می کنن :: they do (spoken)
   - می کنند :: they do (written)
-** Vocab
-- استاد :: professor
-- ادبیات :: literature
+** Prepositions
 - تُو :: at, in (pron. tū)
   - c.f. 2 p.s. pronoun تو (pron. tō)
 - داخِل :: at, in
+** Vocab: School and Institutions
+- آموزشگاه :: educational institutions
+- مدرسه :: school
+  - مدرسه ابتدایی :: elementary school
+  - مدرسه راهنمایی :: guidance school
+  - دبیرستان/مدرسه متوسطه :: secondary school
+  - مدرسه ی ادب :: finishing school
+    - ادب :: politeness
+    - با ادب :: polite
+    - بی ادب :: impolite
+  - دبیر :: teacher (guidance/secondary level)
+  - دانش آموز، شاگرد :: school student
 - دانشگاه :: university
-- مشغول :: busy
+  - استاد :: professor
+  - ادبیات :: literature
+  - هنرسنان :: art school
+  - دانشجو :: university student
+    - دانش :: knowledge
+  - رشته :: major
+  - رشته ی تحصیلی :: field of study
+  - معماری :: architecture
+    - معمار :: architect
+** Vocab: Hopsitals
+- بیمارستان :: hospital
+- بیماری/مریض :: sick person
+- پرستار :: nurse
+- زایشگاه :: maternity hospital
+- ماما :: midwife
 ** Interrogatives
 - کجا :: where
 - چی :: what
+- کدوم/کدام :: which
 ** Work
 - کار :: work
 - کار می کنم :: I work (lit. I do work)
@@ -495,6 +520,7 @@ CLOSED: [2019-10-28 Mon 19:09]
 - شغل :: job
 - حرفه :: profession
 - محل کار :: place of work
+- مشغول :: busy
 *** What Is Your Job?
 There are many phrases that express this.
 - شغل
@@ -513,11 +539,20 @@ There are many phrases that express this.
   - کارت جیه؟
 
 - مشغول به چه کاری هستی؟ :: what work do you do?
+- شغل پدرتون چیه؟ شغل پدر شما چیه؟ :: what's your dad's job?
 *** Where Do You Work?
 - کجا کار می کنی؟
 - کجا کار می کنین؟
 - کجا مشغول به کار هستین؟
 - محل کارتون کجاست؟
+** Notes: چیه (what is…?)
+- چیه :: what is… (spoken)
+  - چی + ـه
+- چیست :: what is… (written)
+  - چی + است
+** Phrases
+- خوش به حالت :: good for you
+- صد آفرین/هزار آفرین :: good job, well done
 * PUBLISHED Farsi with Neda: Homework 4
 CLOSED: [2019-10-29 Tue 21:04]
 ** Notes: Combining suffixes
