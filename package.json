@@ -15,7 +15,6 @@
     "dev": "gatsby develop",
     "format": "prettier --no-color --write \"src/**/*.{ts,tsx,md}\"",
     "lint": "eslint --fix 'src/**/*.{ts,tsx}'",
-    "pre-commit": "npm run type-check && lint-staged",
     "start": "npm run dev",
     "test": "npm run type-check && npm run lint",
     "type-check": "tsc --noEmit"
@@ -74,7 +73,6 @@
     "eslint-config-blvd": "^0.1.1",
     "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "husky": "^3.0.5",
     "lint-staged": "^9.2.5",
     "prettier": "^1.18.2",
     "rimraf": "^2.7.1"
