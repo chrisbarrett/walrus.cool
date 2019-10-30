@@ -463,7 +463,61 @@ CLOSED: [2019-10-24 Thu 12:46]
 - رابرت: اهل لندنم.
 - سارا: لندن کجاست؟
 - رابرت: در انگلیس.
-* DRAFT Farsi with Neda: Lesson 4
+* PUBLISHED Farsi with Neda: Lesson 4
+CLOSED: [2019-10-28 Mon 19:09]
+** Simple present tense
+- The simple present is formed by taking the present stem (بن مضارع) and adding the prefix particle /می/ and conjugating the verb
+- The negative is formed by substituting /نِمی/ for /می/
+- E.g. کردن (to do, make)
+  - می کنم :: I do
+  - می کنی :: you do
+  - می کنه :: he/she does (spoken)
+  - می کند :: he/she does (written)
+  - می کنیم :: we do
+  - می کنین، می کنید :: you (pl) do
+  - می کنن :: they do (spoken)
+  - می کنند :: they do (written)
+** Vocab
+- استاد :: professor
+- ادبیات :: literature
+- تُو :: at, in (pron. tū)
+  - c.f. 2 p.s. pronoun تو (pron. tō)
+- داخِل :: at, in
+- دانشگاه :: university
+- مشغول :: busy
+** Interrogatives
+- کجا :: where
+- چی :: what
+** Work
+- کار :: work
+- کار می کنم :: I work (lit. I do work)
+- کار می کنی؟ :: do you work?
+- شغل :: job
+- حرفه :: profession
+- محل کار :: place of work
+*** What Is Your Job?
+There are many phrases that express this.
+- شغل
+  - شغل شما چیه؟
+  - شغلتون چیه؟
+  - کارتون چیه؟
+- مشغول
+  - مشغول به چه کاری هستین؟
+  - چه کار می کنین؟
+- شغل
+  - شغلت جیه؟
+  - شغل تو چیه؟
+- کار
+  - چه کار می کنی؟
+  - کار تو چیه؟
+  - کارت جیه؟
+
+- مشغول به چه کاری هستی؟ :: what work do you do?
+*** Where Do You Work?
+- کجا کار می کنی؟
+- کجا کار می کنین؟
+- کجا مشغول به کار هستین؟
+- محل کارتون کجاست؟
 * PUBLISHED Farsi with Neda: Homework 4
 CLOSED: [2019-10-29 Tue 21:04]
 ** Notes: Combining suffixes
