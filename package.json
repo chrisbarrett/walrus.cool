@@ -4,9 +4,6 @@
   "version": "1.0.0",
   "private": true,
   "author": "Chris Barrett <chris+github@walrus.cool>",
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
