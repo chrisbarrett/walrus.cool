@@ -13,7 +13,7 @@
     "format": "prettier --no-color --write \"src/**/*.{ts,tsx,md}\"",
     "lint": "eslint --fix 'src/**/*.{ts,tsx}'",
     "start": "npm run dev",
-    "test": "npm run type-check && npm run lint",
+    "test": "npm run type-check && npm run lint && jest",
     "type-check": "tsc --noEmit"
   },
   "engines": {
@@ -57,6 +57,7 @@
   "devDependencies": {
     "@types/cheerio": "^0.22.13",
     "@types/classnames": "^2.2.8",
+    "@types/jest": "^24.0.21",
     "@types/lodash": "^4.14.144",
     "@types/node": "^12.0.10",
     "@types/node-emoji": "^1.8.1",
@@ -70,8 +71,10 @@
     "eslint-config-blvd": "^0.1.1",
     "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.9.0",
     "lint-staged": "^9.2.5",
     "prettier": "^1.18.2",
-    "rimraf": "^2.7.1"
+    "rimraf": "^2.7.1",
+    "ts-jest": "^24.1.0"
   }
 }
