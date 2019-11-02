@@ -73,7 +73,7 @@ const postProcessHtml = (html: string, rtlLang: string): string => {
       .first();
 
     firstRow.children('td').each((index, cell) => {
-      if (cell.attribs['dir'] === 'rtl') {
+      if (cell.attribs.dir === 'rtl') {
         const headerCell = headerRow.get(index);
         $(headerCell).addClass('right-aligned-column');
       }
@@ -103,7 +103,7 @@ const Template: React.SFC<Props> = ({ data, pageContext }) => {
   const updatedHtml = postProcessHtml(html, pageContext.rtlLang);
 
   return (
-    <Layout noHeader={true}>
+    <Layout noHeader>
       <SEO title={meta.title} />
       <article>
         <Styles>

@@ -1,17 +1,17 @@
 import * as React from 'react';
 import _ from 'lodash';
 import { graphql } from 'gatsby';
+import styled from '@emotion/styled';
 import Layout from '../components/layout';
 import PostItem, { Props as PostProps } from '../components/post-item';
-import styled from '@emotion/styled';
 import SEO from '../components/seo';
 
-type ExtraQueryAttrs = {
+interface ExtraQueryAttrs {
   meta: {
     publicationYear: string;
     publicationDateString: string;
   };
-};
+}
 
 interface Props {
   data: {
