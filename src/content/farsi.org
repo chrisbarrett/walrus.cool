@@ -553,7 +553,7 @@ There are many phrases that express this.
 ** Phrases
 - خوش به حالت :: good for you
 - صد آفرین/هزار آفرین :: good job, well done
-* PUBLISHED Farsi with Neda: Homework 4
+* PUBLISHED Farsi with Neda: Lesson 5
 CLOSED: [2019-10-29 Tue 21:04]
 ** Notes: Combining suffixes
 - It is possible to form compounds of possessive suffixes with enclitic
