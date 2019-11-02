@@ -626,5 +626,5 @@ CLOSED: [2019-10-29 Tue 21:04]
 - مریم: برادر و خواهر هم داری؟ :: Do you have brothers and sisters too?
   - هَم :: too, as well
 - سیما: بله یه برادر و یه خواهر دارم. :: Yes, I have one brother and one sister.
-- مریم: چند سالسونه؟ :: How old are they?
+- مریم: چند سالشونه؟ :: How old are they?
 - سیما: برادرم هفده سالشه ولی خواهرم دوازده سالشه. :: My brother is seventeen but my sister is twelve.
