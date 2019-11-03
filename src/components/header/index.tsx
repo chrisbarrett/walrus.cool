@@ -16,7 +16,7 @@ export default () => (
       }
     `}
     render={({ walrusPng }) => (
-      <Header fixedImage={...walrusPng.childImageSharp.fixed} />
+      <Header fixedImage={walrusPng.childImageSharp.fixed} />
     )}
   />
 );
