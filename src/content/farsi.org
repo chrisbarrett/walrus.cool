@@ -3,7 +3,7 @@
 #+TODO: DRAFT | PUBLISHED
 #+TODO: TODO | DONE
 #+FILETAGS: farsi
-- Google Translate :: [[https://translate.google.com/#view=home&op=translate&sl=fa&tl=en]]
+- Google Translate :: [[https://translate.google.com/#view=home&op=translate&sl=fa&tl=en][Farsi to English]]
 * PUBLISHED Farsi with Neda: Lesson 1
 CLOSED: [2019-10-07 Mon 12:29]
 ** Basic Greetings
