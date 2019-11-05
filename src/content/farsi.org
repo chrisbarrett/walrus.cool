@@ -628,3 +628,160 @@ CLOSED: [2019-10-29 Tue 21:04]
 - سیما: بله یه برادر و یه خواهر دارم. :: Yes, I have one brother and one sister.
 - مریم: چند سالشونه؟ :: How old are they?
 - سیما: برادرم هفده سالشه ولی خواهرم دوازده سالشه. :: My brother is seventeen but my sister is twelve.
+* PUBLISHED Farsi with Neda: Lesson 6
+CLOSED: [2019-11-02 Sat 16:22]
+** Calendar
+- The Persian calendar months are listed here: [[https://en.wikibooks.org/wiki/Persian/Phrasebook/Seasons_and_Months][Persian Seasons & Months]]
+  (Wikipedia)
+*** Persian Calendar
+The months are aligned with season changes.
+- بَهار :: Spring
+  - فَروَردین :: 21 March--20 April (31 days)
+  - اُردیبَهَشت :: 21 April--21 May (13 days)
+  - خُرداد :: 22 May--21 June (31 days)
+- تابِسْتان :: Summer
+  - تیر :: 22 June--22 July (31 days)
+  - مُرداد :: 23 July--22 August (31 days)
+  - شهْریوَر :: 23 August--22 September (31 days)
+- پاییز :: Autumn
+  - مِهْر :: 23 September--22 October (30 days)
+  - آبان :: 23 October--21 Nov (30 days)
+  - آذَر :: 22 November--21 December (30 days)
+- زِنِسْتان :: Winter
+  - دِی :: December 22--January 19 (30 days)
+  - بَهْمَن :: January 20--February 18 (30 days)
+  - اِسْفَنْد :: February 19--20 March (29/30 days)
+*** Gregorian Calendar
+Farsi also has transliterated versions of the Gregorian calendar months.
+- ژانْوِیه :: January
+- فِوْریه :: February
+- مارْس :: March
+- آوْریل :: April
+- مِه :: May
+- ژوئن :: June
+- ژوئیه :: July
+- اُوت :: August
+- سیپْتامْبْر :: September
+- اُکْتُوبْر :: October
+- نُوامْبْر :: November
+- دِسامْبْر :: December
+** Time
+- /ساعت، /زمان/ :: time
+- قبل :: before (prep.)
+- قبای :: preceding (adj.)
+- بعد :: after (prep.)
+- بعدی :: following (adj.)
+** Meals
+- صبحانه، صبحونه :: breakfast
+- ناهار :: lunch
+- شام :: dinner
+** Asking About Understanding
+- متوجه شدی؟ :: did you understand?
+- متوجه نشدم :: I didn't understand
+- گرفتم :: gotcha, I understand (lit. I caught it)
+
+There's another verb used for understanding, but it's related to the word for 'idiot' and is best avoided:
+- فهمیدم :: I understand
+- نفهم :: idiot
+** Numbers
+- numbers are pretty regular in Farsi.
+- memorise:
+  - numbers 0-19 (the usual Indo-European irregularity)
+  - 10 place values
+    - 20 :: بیست
+    - 30 :: سی
+    - 40 :: چهل
+    - 50 :: پَنْجاه
+    - 60 :: شَصْت
+    - 70 :: هَفْتاد
+    - 80 :: هَشْتاد
+    - 90 :: نَوَد
+  - 100 place values
+    - 100 :: صَد
+    - 200 :: دِویسْت
+    - 300 :: سیصَد
+    - 400 :: چهارصَد (چارصَد)
+    - 500 :: پانْصَد (پونْصَد)
+    - 600 :: شِشْصَد
+    - 700 :: هَفْتْصَد
+    - 800 :: هَشْتْصَد
+    - 900 :: نُهْصَد
+  - 1,000 :: هِزار
+  - Farsi is like French in that a million is called a میلیارد (/milliard/) and a billion is called a میلیون (/million/).
+    - 1,000,000 :: میلیارد
+    - 1,000,000,000 :: میلیون
+- compound numbers below 100 are regular (tens place + و + ones place)
+  - e.g. نود و پنج / ۹۵ / 95
+- numbers above 100 are composed similarly to English, by reading out the place values, separated by /و/ (pronounced 'o' in speech).
+  - e.g. صد و نود و هشت / ۱۹۸ / 198
+- compounds of thousands, millions or billions are expressed as a number below 1000 followed by هزار, میلیارد or میلیون respectively:
+  - e.g. دو هزار / ۲۰۰۰ / 2000
+** Conversation 1: الان ساعت چنده؟
+- امیر: ببخشین کلاس فارسی چه ساعتیه؟ :: Excuse me, what time is Persian class?
+  - بِبَخْشین، بِبَخْشید :: Excuse me
+  - کِلاسِ فارسی :: Persian class
+  - چه ساعَتیه؟ :: Is at what time?
+
+- مینا: ساعت ده. :: It's at 10am.
+  - ساعَتِ… :: it's at…<time>
+- امیر: تا چه ساعتی؟ :: Until what time?
+- مینا: تا ساعت یک. :: Until 1pm.
+- الان ساعت چنده؟ :: What time is it now?
+- مینا: ساعت نه و نیمه. :: It's half past nine.
+  - نیم :: half
+- امیر: ناهار چه ساعتیه؟ :: What time is lunch?
+  - ناهار :: lunch
+- مینا: از ساعت یک و ربع تا دو. :: From 1:15 til 2.
+  - … و رُبْع :: quarter past…
+  - از … تا … :: from… until…
+- امیر: یعنی کلاس بعدی بعد از ناهاره؟ :: Does that mean the next class is after lunch?
+  - …ـِ بَعَدی :: the next… <thing>
+  - بَعَد :: after
+- مینا: نه کلاس نعدی یک ربع به چهاره. :: No, the next class is at quarter to 4.
+  - رُبْع بِه … :: quarter to…
+- امیر:  تو هم ساعت یه ربع به چهار کلاس داری؟ :: Do you have a class at 3:45 as wel?
+- نه من فقط صبح کلاس دارم. :: No, I only have a class in the morning.
+** Conversation 2: امروز چند شنبه است؟
+- جان: تاویزبین چه داره؟ :: what's showing on TV? (lit. "what does the TV have [to show]?")
+  - تلویزیون :: TV
+- مینا: امروز چند شنبست؟ :: what day is it today?
+- جان: چهارشنبه. :: Wednesday.
+- مینا: الان فیلم داره. :: there's a film on now (lit. "it [the TV] is showing a film")
+  - فیلم :: film
+- جان: فوتبال نداره؟ :: is there football on?
+  - فوتبال :: football
+- مینا: نه، فردا فوتبال داره. :: No, there is football on tomorrow.
+- جان: جمعه چی داره؟ :: what's showing on Friday? (lit "what does it have [to show] on Friday?")
+- مینا: جمعه تو ایران تعطیله. تلویزیون فیلم کمدی داره. :: Friday is a holiday in Iran. There are comedy films on TV.
+  - فیلمِ کُمِدی :: comedy films
+- جان: چه روزی اخبار داره؟ :: what day is the news on?
+  - خَبَر (اخبار) :: news
+    - used in the plural to mean 'news', i.e. 'current affairs'
+- مینا: هر روز اخبار داره. :: the news is on every day.
+  - هَر :: every
+  - هر روز :: every day
+- جان: راستی، دیروز کجا بودی؟ :: by the way, where were you yesterday?
+  - راسْتی :: btw
+- مینا: دیروز سه شنبه بود. دانشگاه بودم. :: yesterday was Tuesday. I was at uni.
+  - دانِشْگاه :: university
+- جان: آخر هفته کجایی؟ :: where are you this weekend?
+  - آخَر :: end, last, final
+  - هَفْته :: week
+  - آخرِ هفته :: weekend (lit. end of week)
+    - c.f. اخیراً, used to mean /recently/ in Farsi (it means 'finally' in MSA)
+- مینا: فردا و پس فردا خونه ام. :: I'm home tomorrow and the day after.
+  - خونه :: home
+  - پَس فَردا :: the day after tomorrow
+** ّConversation 3
+- مهیار: چند شنبه است؟ :: What day is today?
+- نوید: امروز جمعه است. :: Today is Friday.
+- مهیار: چه روزی کلاس فارسی داریم؟ :: What day do we have Persian class?
+- نوید: یک شنبه. :: Sunday.
+- مهیار: فراردا یک شنبه است؟ :: Is it Sunday tomorrow?
+- نوید: نه فردا شنبه است. کلاس فارسی پس فرداست. :: No, tomorrow is Saturday. Persian class is the day after.
+  - پَس فَردا :: The day after
+** Conversation 4
+- مهرداد: امروز چند شنبه است؟ :: What day is it today?
+- رامین: پنج شنبه. :: Thursday.
+- مهرداد: چه خوب. فردا جمعه است. فردا تعطیله. :: Nice. Tomorrow is Friday. Tomorrow is holiday.
+  - تَعْطیل :: holiday
