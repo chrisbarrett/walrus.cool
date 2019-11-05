@@ -629,7 +629,7 @@ CLOSED: [2019-10-29 Tue 21:04]
 - مریم: چند سالشونه؟ :: How old are they?
 - سیما: برادرم هفده سالشه ولی خواهرم دوازده سالشه. :: My brother is seventeen but my sister is twelve.
 * PUBLISHED Farsi with Neda: Lesson 6
-CLOSED: [2019-11-02 Sat 16:22]
+CLOSED: [2019-11-05 Tue 23:24]
 ** Calendar
 - The Persian calendar months are listed here: [[https://en.wikibooks.org/wiki/Persian/Phrasebook/Seasons_and_Months][Persian Seasons & Months]]
   (Wikipedia)
