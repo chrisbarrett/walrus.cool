@@ -9,6 +9,7 @@
   "scripts": {
     "build": "gatsby build && echo www.walrus.cool > public/CNAME",
     "clean": "rimraf public",
+    "deploy": "gatsby build --prefix-paths && echo www.walrus.cool > public/CNAME && gh-pages -d public",
     "dev": "gatsby develop",
     "format": "prettier --no-color --write \"src/**/*.{ts,tsx,md}\"",
     "lint": "eslint --fix 'src/**/*.{ts,tsx}'",
@@ -73,6 +74,7 @@
     "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "jest": "^24.9.0",
+    "gh-pages": "^2.0.1",
     "lint-staged": "^9.2.5",
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.11.0",
